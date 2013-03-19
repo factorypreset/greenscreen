@@ -5,11 +5,10 @@ class ImportHelpers
   module EPA
     module Vehicles
 
-      IMPORT_FILE = "data/epa/greenvehicles/all_alpha_12.txt"
       IMPORT_DIR = "data/epa/greenvehicles/"
 
-      def self.csv_load(col_sep="\t")
-        csv_text = File.read(IMPORT_FILE)
+      def self.csv_load(file, col_sep="\t")
+        csv_text = File.read(IMPORT_DIR + file)
         csv = CSV.parse(csv_text, :headers => true, :col_sep => "\t")
         return csv
       end
@@ -56,7 +55,7 @@ class ImportHelpers
         make_and_model = parse_make_and_model(row["Model"])
         mapping = {
           :make => make_and_model[:make],
-          :source => IMPORT_FILE
+          :source => "EPA"
         }
         return mapping
       end
@@ -64,12 +63,12 @@ class ImportHelpers
       def self.map_vehicle_class_fields(row)
         mapping = {
           :vehicle_class => row["Veh Class"],
-          :source => IMPORT_FILE
+          :source => "EPA"
         }
         return mapping
       end
 
-      def self.map_vehicle_model_fields(row)
+      def self.map_vehicle_model_fields(row, model_year)
         make_and_model = parse_make_and_model(row["Model"])
         make = make_and_model[:make]
         model = make_and_model[:model]
@@ -78,6 +77,7 @@ class ImportHelpers
           :vehicle_make_id => VehicleMake.find_by_make(make).id,
           :vehicle_class_id => VehicleClass.find_by_vehicle_class(veh_class).id,
           :model => model,
+          :model_year => model_year,
           :engine_volume => row["Displ"],
           :cylinders => row["Cyl"].to_i,
           :transmission => row["Trans"],
@@ -93,7 +93,7 @@ class ImportHelpers
           :combined_mpg => row["Cmb MPG"].to_i,
           :greenhouse_gas_score => row["Greenhouse Gas Score"].to_i,
           :smart_way => to_boolean(row["SmartWay"]),
-          :source => IMPORT_FILE
+          :source => "EPA"
         }
         return mapping
       end
