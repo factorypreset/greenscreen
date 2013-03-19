@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Zipgreen::Application.load_tasks
+Greenscreen::Application.load_tasks

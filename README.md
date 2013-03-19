@@ -15,7 +15,7 @@ Ideas:
 * green reporting api
 * use real-time figures from api to power a calculator
 * impact of proximity to mass transit
-
+* utilisation
 
 
 

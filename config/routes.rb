@@ -1,4 +1,4 @@
-Zipgreen::Application.routes.draw do
+Greenscreen::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

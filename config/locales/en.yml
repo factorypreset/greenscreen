@@ -1,5 +1,12 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  epa:
+    vehicles:
+      import_complete: EPA Green Vehicles import complete.
+      data_deleted: EPA Green Vehicles data deleted.
+      imported_makes: Imported %{count} vehicle makes.
+      deleted_makes: Deleted vehicle makes.
+      imported_models: Imported %{count} vehicle models.
+      deleted_models: Deleted vehicle models.
+      imported_classes: Imported %{count} vehicle classes.
+      deleted_classes: Deleted vehicle classes.
+
