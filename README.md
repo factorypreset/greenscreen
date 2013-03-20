@@ -1,22 +1,25 @@
+Greenscreen
+===========
+
+An evolving suite of tools for interacting with environmental data.
+
+Includes:
+
+ * United States EPA green vehicle data
+ * ...
 
 
-Ideas:
+TODO
+----
 
+Some half-baked ideas for where this could go might include:
 
 * map fuel consumption
 * by vehicle style/type
 * experiments -- what influences decision to use low-emission vehicle?
-* location of low emission vehicles? vs demographics?
-* route selection mbta + zip + bike paths + hubway
-* mash against data.gov green vehicle guide https://explore.data.gov/Transportation/Green-Vehicle-Guide-Data-Downloads/9un4-5bz7
-  --> maybe validate data.gov figures for vehicles based on our actual usage
-  --> publish an alternative green vehicle guide --
-* compare fuel efficiency by driver age
+* compare fuel efficiency
 * green reporting api
-* use real-time figures from api to power a calculator
 * impact of proximity to mass transit
-* utilisation
-
-
+* environmental metadata display during web browsing
 
 
