@@ -39,3 +39,7 @@ group :development do
   gem 'colorize'
 end
 
+group :development, :test do
+  gem 'flexmock'
+end
+

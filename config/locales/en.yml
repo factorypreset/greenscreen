@@ -1,5 +1,6 @@
 en:
   epa:
+    import_complete: All EPA data imported.
     vehicles:
       import_complete: EPA Green Vehicles import complete.
       data_deleted: EPA Green Vehicles data deleted.

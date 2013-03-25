@@ -77,7 +77,7 @@ class ImportHelpers
           :vehicle_make_id => VehicleMake.find_by_make(make).id,
           :vehicle_class_id => VehicleClass.find_by_vehicle_class(veh_class).id,
           :model => model,
-          :model_year => model_year,
+          :model_year => model_year.to_i,
           :engine_volume => row["Displ"],
           :cylinders => row["Cyl"].to_i,
           :transmission => row["Trans"],

@@ -8,6 +8,14 @@ Includes:
  * United States EPA green vehicle data
  * ...
 
+Installation
+------------
+
+After cloning the repository you should:
+
+    bundle install
+    rake epa:import_all
+    rails s
 
 TODO
 ----

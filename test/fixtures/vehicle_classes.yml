@@ -1,0 +1,7 @@
+suv:
+  vehicle_class: SUV
+  source: EPA
+
+minivan:
+  vehicle_class: minivan
+  source: EPA

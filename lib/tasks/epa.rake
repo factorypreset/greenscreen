@@ -3,6 +3,11 @@ require 'debugger'
 require 'colorize'
 
 namespace :epa do
+
+  task :import_all => ["vehicles:import_all"] do
+    puts I18n.t("epa.import_completed").green
+  end
+
   namespace :vehicles do
 
     IMPORT_FILES = {

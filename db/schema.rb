@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130319205700) do
+ActiveRecord::Schema.define(:version => 20130320025223) do
 
   create_table "vehicle_classes", :force => true do |t|
     t.string "vehicle_class"
@@ -42,12 +42,12 @@ ActiveRecord::Schema.define(:version => 20130319205700) do
     t.integer  "combined_mpg"
     t.integer  "greenhouse_gas_score"
     t.boolean  "smart_way"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
     t.integer  "vehicle_make_id"
     t.string   "source"
     t.integer  "vehicle_class_id"
-    t.string   "model_year"
+    t.integer  "model_year",           :limit => 255
   end
 
 end
