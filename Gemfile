@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
+ruby '2.1.1'
 
-gem 'rails', '4.0'
+gem 'rails', '4.0.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,5 +40,12 @@ end
 group :development, :test do
   gem 'flexmock'
   gem 'pry'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'minitest-spec-rails'
+  gem 'minitest-wscolor'
 end
 
