@@ -1,6 +1,0 @@
-a_suv:
-  model: SomeSUV
-  engine_volume: 5.0
-  cylinders: 6
-  transmission: Auto-4
-

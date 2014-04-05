@@ -17,6 +17,13 @@ After cloning the repository you should:
     bundle exec rake epa:import_all
     bundle exec rails s
 
+Tests
+-----
+
+To run tests
+
+    bundle exec rake test
+
 TODO
 ----
 

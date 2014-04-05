@@ -3,16 +3,7 @@ class VehiclesController < ApplicationController
   respond_to :json
 
   def index
-    if params.has_key?(:year) and params.has_key?(:make)
-      @vehicle_models = VehicleModel.by_year(params[:year]).by_make(params[:make])
-    elsif params.has_key?(:year)
-      @vehicle_models = VehicleModel.by_year(params[:year])
-    elsif params.has_key?(:make)
-      @vehicle_models = VehicleModel.by_make(params[:make])
-    else
-      @vehicle_models = VehicleModel.all
-    end
-
+    @vehicle_models = find_vehicle_models
     respond_with(@vehicle_models)
   end
 
@@ -21,6 +12,18 @@ class VehiclesController < ApplicationController
     respond_with(@vehicle_model)
   end
 
-  
+  private
+
+  def vehicle_params
+    params.permit(:year, :make)
+  end
+
+  def find_vehicle_models
+    if vehicle_params.any?
+      return VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make])
+    else
+      return VehicleModel.all
+    end
+  end
 
 end

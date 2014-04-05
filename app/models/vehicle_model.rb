@@ -3,11 +3,19 @@ class VehicleModel < ActiveRecord::Base
   belongs_to :vehicle_class
 
   def self.by_year(year)
-    where(:model_year => year)
+    if year.blank?
+      all
+    else
+      where(:model_year => year)
+    end
   end
 
   def self.by_make(make)
-    joins(:vehicle_make).where("vehicle_makes.make = ?", make.upcase) 
+    if make.blank?
+      all
+    else
+      joins(:vehicle_make).where("vehicle_makes.make = ?", make.upcase)
+    end
   end
 
   def full_name
