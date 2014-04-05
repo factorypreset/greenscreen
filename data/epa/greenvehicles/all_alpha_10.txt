@@ -894,6 +894,7 @@ GMC Sierra 15	4.3	6	Auto-4	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	AGMXT04.3186	
 GMC Sierra 15	4.3	6	Auto-4	2WD	Gasoline	CA	L2	California LEV-II LEV	AGMXT04.3186	pickup	6	15	20	17	3	no
 GMC Sierra 15	4.3	6	Auto-4	4WD	Gasoline	CA	L2	California LEV-II LEV	AGMXT04.3186	pickup	6	14	18	15	2	no
 GMC Sierra 15 Hybrid	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	AGMXT06.0371	pickup	6	21	22	22	6	no
+
 GMC Sierra 15 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	AGMXT06.0371	pickup	6	21	22	21	5	no
 GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	AGMXT05.3381	pickup	7/7	11/15	16/22	13/18	4/4	no
 GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	AGMXT05.3373	pickup	6/6	11/15	16/22	13/18	4/4	no

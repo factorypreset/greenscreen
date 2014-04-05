@@ -1,13 +1,22 @@
 en:
   epa:
-    import_complete: All EPA data imported.
+    import_completed: All EPA data imported.
+    download_completed: All EPA data downloaded.
+    delete_completed: All EPA data deleted.
     vehicles:
       import_complete: EPA Green Vehicles import complete.
+      download_complete: EPA Green Vehicles download complete.
       data_deleted: EPA Green Vehicles data deleted.
+      importing_makes: Starting import for vehicle makes...
       imported_makes: Imported %{count} vehicle makes.
+      imported_makes_year: Imported vehicle makes for %{year}.
       deleted_makes: Deleted vehicle makes.
+      importing_models: Starting import for vehicle models. This step can take some time...
       imported_models: Imported %{count} vehicle models.
+      imported_models_year: Imported vehicle models for %{year}.
       deleted_models: Deleted vehicle models.
+      importing_classes: Starting import for vehicle classes...
       imported_classes: Imported %{count} vehicle classes.
+      imported_classes_year: Imported vehicle classes for %{year}.
       deleted_classes: Deleted vehicle classes.
 

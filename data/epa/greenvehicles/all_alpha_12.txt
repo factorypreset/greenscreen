@@ -113,18 +113,18 @@ AUDI TT Roadster	2	4	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CADXJ02.
 AUDI TT Roadster	2	4	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CADXJ02.03UA	small car	6	23	31	26	6	yes
 AUDI TTRS Coupe	2.5	5	Man-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CADXV02.53UK	small car	5	18	25	20	4	no
 AUDI TTRS Coupe	2.5	5	Man-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CADXV02.53UK	small car	6	18	25	20	4	no
-Azure Dynamics Transit Connect Electric	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CAZDT00.0001	special purpose	10	62	62	62	10	yes
-Azure Dynamics Transit Connect Electric Wagon	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CAZDT00.0001	special purpose	10	62	62	62	10	yes
-BENTLEY Continental Flying Spur	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	midsize car	5/5	8/11	13/19	10/14	1/1	no
-BENTLEY Continental Flying Spur	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	midsize car	5/5	8/11	13/19	10/14	1/1	no
-BENTLEY Continental GT	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
-BENTLEY Continental GT	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
-BENTLEY Continental GTC	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5/5	8/11	13/19	10/14	1/1	no
-BENTLEY Continental GTC	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5/5	8/11	13/19	10/14	1/1	no
-BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
-BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
-BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
-BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5/5	8/12	14/19	10/14	1/1	no
+Azure Dynamics Transit Connect Electric	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CAZDT00.0001	special purpose	10	62	62	62	10	yes
+Azure Dynamics Transit Connect Electric Wagon	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CAZDT00.0001	special purpose	10	62	62	62	10	yes
+BENTLEY Continental Flying Spur	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	midsize car	5	8/11	13/19	10/14	1	no
+BENTLEY Continental Flying Spur	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	midsize car	5	8/11	13/19	10/14	1	no
+BENTLEY Continental GT	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
+BENTLEY Continental GT	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
+BENTLEY Continental GTC	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5	8/11	13/19	10/14	1	no
+BENTLEY Continental GTC	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5	8/11	13/19	10/14	1	no
+BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
+BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
+BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
+BENTLEY Continental Supersports	6	12	SemiAuto-6	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CBEXV06.0501	small car	5	8/12	14/19	10/14	1	no
 BENTLEY Mulsanne	6.8	8	SemiAuto-8	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CBEXV06.84LA	midsize car	5	11	18	13	1	no
 BENTLEY Mulsanne	6.8	8	SemiAuto-8	2WD	Gasoline	CA	L2	California LEV-II LEV	CBEXV06.84LA	midsize car	5	11	18	13	1	no
 BMW 128Ci Convertible	3	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CBMXJ03.0E89	small car	5	18	28	22	5	no
@@ -319,22 +319,22 @@ BUICK Lacrosse	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXV02.
 BUICK Lacrosse	2.4	4	SemiAuto-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXV02.4060	midsize car	5	25	36	29	7	yes
 BUICK Lacrosse	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV02.4069	midsize car	6	25	36	29	7	yes
 BUICK Lacrosse	2.4	4	SemiAuto-6	2WD	Gasoline	CA	PZEV	California PZEV	CGMXV02.4069	midsize car	9	25	36	29	7	yes
-BUICK Lacrosse	3.6	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6/6	12/16	18/26	14/20	4/4	no
-BUICK Lacrosse	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6/6	13/17	19/27	15/21	4/4	no
-BUICK Lacrosse	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6/6	13/17	19/27	15/21	4/4	no
-BUICK Regal	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6/6	15/20	22/32	17/24	5/5	no
+BUICK Lacrosse	3.6	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6	12/16	18/26	14/20	4	no
+BUICK Lacrosse	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6	13/17	19/27	15/21	4	no
+BUICK Lacrosse	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	midsize car	6	13/17	19/27	15/21	4	no
+BUICK Regal	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6	15/20	22/32	17/24	5	no
 BUICK Regal	2	4	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0021	midsize car	6	19	27	22	5	no
-BUICK Regal	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6/6	13/18	22/29	16/22	5/5	no
-BUICK Regal	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6/6	13/18	22/29	16/22	5/5	no
+BUICK Regal	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6	13/18	22/29	16/22	5	no
+BUICK Regal	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0001	midsize car	6	13/18	22/29	16/22	5	no
 BUICK Regal	2	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV02.0021	midsize car	6	19	27	22	5	no
-BUICK Regal	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	midsize car	6/6	15/19	22/31	17/23	5/5	no
+BUICK Regal	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	midsize car	6	15/19	22/31	17/23	5	no
 BUICK Regal	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4150	midsize car	6	19	31	23	5	no
 BUICK Regal	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXV02.4060	midsize car	5	25	36	29	7	yes
 BUICK Regal	2.4	4	SemiAuto-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXV02.4060	midsize car	5	25	36	29	7	yes
 BUICK Regal	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV02.4069	midsize car	6	25	36	29	7	yes
 BUICK Regal	2.4	4	SemiAuto-6	2WD	Gasoline	CA	PZEV	California PZEV	CGMXV02.4069	midsize car	9	25	36	29	7	yes
-BUICK Verano	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	small car	6/6	15/21	23/32	18/25	6/6	yes
-BYD e6	-1		Auto-4	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CBYDV0000002	SUV	10	60	64	62	10	yes
+BUICK Verano	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	small car	6	15/21	23/32	18/25	6	yes
+BYD e6	N/A	N/A	Auto-4	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CBYDV0000002	SUV	10	60	64	62	10	yes
 CADILLAC CTS	3	6	SemiAuto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	midsize car	6	18	26	21	4	no
 CADILLAC CTS	3.6	6	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	midsize car	6	16	26	19	3	no
 CADILLAC CTS	3.6	6	SemiAuto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	midsize car	6	18	27	21	4	no
@@ -352,21 +352,21 @@ CADILLAC CTS Wagon	6.2	8	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXV06.2
 CADILLAC CTS Wagon	6.2	8	Man-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXV06.2087	station wagon	5	14	19	16	1	no
 CADILLAC CTS Wagon	6.2	8	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXV06.2087	station wagon	5	12	18	14	1	no
 CADILLAC CTS Wagon	6.2	8	SemiAuto-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXV06.2087	station wagon	5	12	18	14	1	no
-CADILLAC Escalade	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/13	14/18	12/15	2/1	no
-CADILLAC Escalade	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/14	15/18	12/16	2/1	no
-CADILLAC Escalade ESV	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6/6	9/13	13/18	10/14	1/1	no
-CADILLAC Escalade ESV	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	9/13	13/18	10/14	1/1	no
-CADILLAC Escalade ESV	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/14	15/18	12/16	2/1	no
-CADILLAC Escalade EXT	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6/6	9/13	13/18	10/14	1/1	no
-CADILLAC Escalade EXT	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	9/13	13/18	10/14	1/1	no
+CADILLAC Escalade	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/13	14/18	12/15	1	no
+CADILLAC Escalade	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/14	15/18	12/16	1	no
+CADILLAC Escalade ESV	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6	9/13	13/18	10/14	1	no
+CADILLAC Escalade ESV	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	9/13	13/18	10/14	1	no
+CADILLAC Escalade ESV	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/14	15/18	12/16	1	no
+CADILLAC Escalade EXT	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6	9/13	13/18	10/14	1	no
+CADILLAC Escalade EXT	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	9/13	13/18	10/14	1	no
 CADILLAC Escalade Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
 CADILLAC Escalade Hybrid	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
-CADILLAC SRX	3.6	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	SUV	6/6	12/16	17/23	14/18	4/3	no
-CADILLAC SRX	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	SUV	6/6	12/17	18/24	14/19	4/3	no
-CHEVROLET Avalanche 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Avalanche 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-CHEVROLET Avalanche 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Avalanche 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
+CADILLAC SRX	3.6	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	SUV	6	12/16	17/23	14/18	3	no
+CADILLAC SRX	3.6	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	SUV	6	12/17	18/24	14/19	3	no
+CHEVROLET Avalanche 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Avalanche 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+CHEVROLET Avalanche 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Avalanche 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
 CHEVROLET Camaro	3.6	6	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	small car	6	19	30	22	5	no
 CHEVROLET Camaro	3.6	6	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	small car	6	17	28	20	4	no
 CHEVROLET Camaro	3.6	6	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6165	small car	6	18	29	22	5	no
@@ -406,38 +406,38 @@ CHEVROLET Cruze	1.8	4	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011
 CHEVROLET Cruze	1.8	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	22	35	27	6	yes
 CHEVROLET Cruze Eco	1.4	4	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	26	39	31	7	yes
 CHEVROLET Cruze Eco	1.4	4	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	28	42	33	8	yes
-CHEVROLET Equinox	2.4	4	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6/6	14/20	20/29	17/23	5/5	no
+CHEVROLET Equinox	2.4	4	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6	14/20	20/29	17/23	5	no
 CHEVROLET Equinox	2.4	4	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4150	SUV	6	20	29	23	5	no
 CHEVROLET Equinox	2.4	4	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4199	SUV	6	20	29	23	5	no
-CHEVROLET Equinox	2.4	4	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6/6	15/22	22/32	18/26	6/6	yes
+CHEVROLET Equinox	2.4	4	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6	15/22	22/32	18/26	6	yes
 CHEVROLET Equinox	2.4	4	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4150	SUV	6	22	32	26	6	yes
 CHEVROLET Equinox	2.4	4	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4199	SUV	6	22	32	26	6	yes
-CHEVROLET Equinox	3	6	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6/6	12/16	17/23	14/19	4/3	no
+CHEVROLET Equinox	3	6	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6	12/16	17/23	14/19	3	no
 CHEVROLET Equinox	3	6	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	16	23	19	3	no
-CHEVROLET Equinox	3	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6/6	12/17	18/24	14/20	4/4	no
+CHEVROLET Equinox	3	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6	12/17	18/24	14/20	4	no
 CHEVROLET Equinox	3	6	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	17	24	20	4	no
 CHEVROLET Express 1500	4.3	6	Auto-4	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT04.3186	van	5	15	20	17	2	no
 CHEVROLET Express 1500	4.3	6	Auto-4	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	van	5	15	20	17	2	no
-CHEVROLET Express 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	9/13	12/17	10/14	1/1	no
-CHEVROLET Express 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	9/13	12/17	10/14	1/1	no
-CHEVROLET Express 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/17	11/14	1/1	no
-CHEVROLET Express 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/18	11/15	1/1	no
-CHEVROLET Express 1500 Conv	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	9/13	12/17	10/14	1/1	no
-CHEVROLET Express 1500 Conv	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/17	11/14	1/1	no
-CHEVROLET Express 2500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	12/17	10/13	1/1	no
-CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	7/10	11/15	9/12	1/1	no
-CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	11/16	9/13	1/1	no
-CHEVROLET Express 3500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	12/17	10/13	1/1	no
-CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	7/10	11/14	9/11	1/1	no
-CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/10	11/15	9/12	1/1	no
-CHEVROLET Impala	3.6	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	large car	6/6	13/18	22/30	16/22	5/5	no
+CHEVROLET Express 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	9/13	12/17	10/14	1	no
+CHEVROLET Express 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	9/13	12/17	10/14	1	no
+CHEVROLET Express 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/17	11/14	1	no
+CHEVROLET Express 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/18	11/15	1	no
+CHEVROLET Express 1500 Conv	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	9/13	12/17	10/14	1	no
+CHEVROLET Express 1500 Conv	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/17	11/14	1	no
+CHEVROLET Express 2500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	12/17	10/13	1	no
+CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	7/10	11/15	9/12	1	no
+CHEVROLET Express 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	11/16	9/13	1	no
+CHEVROLET Express 3500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	12/17	10/13	1	no
+CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	7/10	11/14	9/11	1	no
+CHEVROLET Express 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/10	11/15	9/12	1	no
+CHEVROLET Impala	3.6	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ03.6166	large car	6	13/18	22/30	16/22	5	no
 CHEVROLET Impala	3.6	6	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV03.6048	large car	6	18	30	22	5	no
 CHEVROLET Impala	3.6	6	Auto-6	2WD	Gasoline	CA	PZEV	California PZEV	CGMXV03.6048	large car	9	18	30	22	5	no
-CHEVROLET Malibu	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.4033	midsize car	6/6	15/22	23/33	18/26	6/6	yes
+CHEVROLET Malibu	2.4	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXV02.4033	midsize car	6	15/22	23/33	18/26	6	yes
 CHEVROLET Malibu	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV02.4026	midsize car	6	22	33	26	6	yes
 CHEVROLET Malibu	2.4	4	SemiAuto-6	2WD	Gasoline	CA	PZEV	California PZEV	CGMXV02.4026	midsize car	9	22	33	26	6	yes
 CHEVROLET Malibu	2.4	4	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXV02.4027	midsize car	5	22	33	26	6	no
@@ -448,26 +448,26 @@ CHEVROLET Silverado 15	4.3	6	Auto-4	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMX
 CHEVROLET Silverado 15	4.3	6	Auto-4	4WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	pickup	5	14	18	15	1	no
 CHEVROLET Silverado 15	4.3	6	Auto-4	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT04.3186	pickup	5	15	20	17	2	no
 CHEVROLET Silverado 15	4.3	6	Auto-4	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	pickup	5	15	20	17	2	no
-CHEVROLET Silverado 15	4.8	8	Auto-4	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	10/13	13/18	11/15	1/1	no
-CHEVROLET Silverado 15	4.8	8	Auto-4	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	10/14	14/19	12/16	2/1	no
-CHEVROLET Silverado 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Silverado 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/21	13/17	3/2	no
-CHEVROLET Silverado 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Silverado 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/21	13/17	3/2	no
-CHEVROLET Silverado 15	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5/5	9/12	13/18	10/14	1/1	no
-CHEVROLET Silverado 15	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5/5	9/13	13/18	11/14	1/1	no
+CHEVROLET Silverado 15	4.8	8	Auto-4	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	10/13	13/18	11/15	1	no
+CHEVROLET Silverado 15	4.8	8	Auto-4	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	10/14	14/19	12/16	1	no
+CHEVROLET Silverado 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/21	13/17	2	no
+CHEVROLET Silverado 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/21	13/17	2	no
+CHEVROLET Silverado 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/21	13/17	2	no
+CHEVROLET Silverado 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/21	13/17	2	no
+CHEVROLET Silverado 15	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5	9/12	13/18	10/14	1	no
+CHEVROLET Silverado 15	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5	9/13	13/18	11/14	1	no
 CHEVROLET Silverado 15 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	pickup	5	20	23	21	4	no
 CHEVROLET Silverado 15 Hybrid	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	pickup	5	20	23	21	4	no
-CHEVROLET Silverado 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/22	13/18	3/3	no
-CHEVROLET Silverado 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/22	13/18	3/3	no
-CHEVROLET Silverado 25	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Silverado 25	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
+CHEVROLET Silverado 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/22	13/18	3	no
+CHEVROLET Silverado 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/22	13/18	3	no
+CHEVROLET Silverado 25	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Silverado 25	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 25	6.6	8	Auto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CGMXD06.6355	pickup	1	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 25	6.6	8	Auto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6355	pickup	2	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 25	6.6	8	Auto-6	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CGMXD06.6355	pickup	1	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 25	6.6	8	Auto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6355	pickup	2	N/A	N/A	N/A	N/A	no
-CHEVROLET Silverado 35	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
-CHEVROLET Silverado 35	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
+CHEVROLET Silverado 35	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
+CHEVROLET Silverado 35	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 35	6.6	8	Auto-6	4WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 35	6.6	8	Auto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
 CHEVROLET Silverado 35	6.6	8	Auto-6	2WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
@@ -480,47 +480,47 @@ CHEVROLET Sonic 5	1.4	4	Man-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.80
 CHEVROLET Sonic 5	1.4	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	27	37	31	7	yes
 CHEVROLET Sonic 5	1.8	4	Man-5	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	26	35	29	7	yes
 CHEVROLET Sonic 5	1.8	4	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.8011	midsize car	6	25	35	28	7	yes
-CHEVROLET Suburban 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Suburban 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-CHEVROLET Suburban 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Suburban 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
+CHEVROLET Suburban 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Suburban 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+CHEVROLET Suburban 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Suburban 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
 CHEVROLET Suburban 2500	6	8	Auto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	N/A	N/A	N/A	N/A	no
 CHEVROLET Suburban 2500	6	8	Auto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	10	15	12	1	no
 CHEVROLET Suburban 2500	6	8	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	N/A	N/A	N/A	N/A	no
 CHEVROLET Suburban 2500	6	8	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	10	16	12	1	no
-CHEVROLET Tahoe 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Tahoe 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-CHEVROLET Tahoe 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-CHEVROLET Tahoe 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
+CHEVROLET Tahoe 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Tahoe 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+CHEVROLET Tahoe 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+CHEVROLET Tahoe 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
 CHEVROLET Tahoe 1500 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
 CHEVROLET Tahoe 1500 Hybrid	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
 CHEVROLET Traverse	3.6	6	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.6151	SUV	6	16	23	19	3	no
 CHEVROLET Traverse	3.6	6	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.6151	SUV	6	17	24	19	3	no
-CHEVROLET Volt	1.4	4	CVT	2WD	Electricity/Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXV01.4001	small car	10/6	95/35	93/40	94/37	10/8	yes
+CHEVROLET Volt	1.4	4	CVT	2WD	Gasoline/Electricity	FA	B4	Federal Tier 2 Bin 4	CGMXV01.4001	small car	6	35/95	40/93	37/94	10	yes
 CHRYSLER 200	2.4	4	Auto-4	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	midsize car	6	21	30	24	5	no
 CHRYSLER 200	2.4	4	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	midsize car	6	20	31	24	5	no
 CHRYSLER 200	2.4	4	Auto-4	2WD	Gasoline	CA	PZEV	California PZEV	CCRXV02.4FR0	midsize car	9	21	30	24	5	no
 CHRYSLER 200	2.4	4	Auto-6	2WD	Gasoline	CA	PZEV	California PZEV	CCRXV02.4FR0	midsize car	9	20	31	24	5	no
-CHRYSLER 200	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	midsize car	6/6	14/19	21/29	16/22	5/5	no
+CHRYSLER 200	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	midsize car	6	14/19	21/29	16/22	5	no
 CHRYSLER 200 Convertible	2.4	4	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	small car	6	18	29	22	5	no
-CHRYSLER 200 Convertible	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	small car	6/6	14/19	21/29	16/22	5/5	no
-CHRYSLER 300	3.6	6	Auto-8	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5/5	14/18	20/27	16/21	5/4	no
-CHRYSLER 300	3.6	6	Auto-8	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6/6	14/18	20/27	16/21	5/4	no
-CHRYSLER 300	3.6	6	Auto-8	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5/5	14/19	23/31	17/23	5/5	no
-CHRYSLER 300	3.6	6	Auto-8	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6/6	14/19	23/31	17/23	5/5	no
+CHRYSLER 200 Convertible	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	small car	6	14/19	21/29	16/22	5	no
+CHRYSLER 300	3.6	6	Auto-8	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5	14/18	20/27	16/21	4	no
+CHRYSLER 300	3.6	6	Auto-8	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6	14/18	20/27	16/21	4	no
+CHRYSLER 300	3.6	6	Auto-8	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5	14/19	23/31	17/23	5	no
+CHRYSLER 300	3.6	6	Auto-8	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6	14/19	23/31	17/23	5	no
 CHRYSLER 300	3.6	6	Auto-5	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6VP0	large car	6	18	27	21	4	no
 CHRYSLER 300	5.7	8	Auto-5	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV05.7UP0	large car	6	15	23	18	3	no
 CHRYSLER 300	5.7	8	Auto-5	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV05.7UP0	large car	6	16	25	19	3	no
 CHRYSLER 300 SRT8	6.4	8	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV06.41P0	large car	5	14	23	17	2	no
 CHRYSLER 300 SRT8	6.4	8	Auto-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV06.41P0	large car	5	14	23	17	2	no
-CHRYSLER Town & Country	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6/6	12/17	18/25	14/20	4/4	no
-CODA Coda	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CCDAV00.01UA	small car	10	77	68	73	10	yes
-CODA Coda	-1		Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CCDAV00.01UA	small car	10	77	68	73	10	yes
+CHRYSLER Town & Country	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6	12/17	18/25	14/20	4	no
+CODA Coda	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CCDAV00.01UA	small car	10	77	68	73	10	yes
+CODA Coda	N/A	N/A	Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CCDAV00.01UA	small car	10	77	68	73	10	yes
 DODGE Avenger	2.4	4	Auto-4	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	midsize car	6	21	30	24	5	no
 DODGE Avenger	2.4	4	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	midsize car	6	20	31	24	5	no
 DODGE Avenger	2.4	4	Auto-4	2WD	Gasoline	CA	PZEV	California PZEV	CCRXV02.4FR0	midsize car	9	21	30	24	5	no
 DODGE Avenger	2.4	4	Auto-6	2WD	Gasoline	CA	PZEV	California PZEV	CCRXV02.4FR0	midsize car	9	20	31	24	5	no
-DODGE Avenger	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	midsize car	6/6	14/19	21/29	16/22	5/5	no
+DODGE Avenger	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	midsize car	6	14/19	21/29	16/22	5	no
 DODGE Caliber	2	4	CVT	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	station wagon	6	23	27	24	5	no
 DODGE Caliber	2	4	Man-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXJ02.44P1	station wagon	5	24	32	27	6	no
 DODGE Caliber	2	4	Man-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXJ02.44P1	station wagon	5	24	32	27	6	no
@@ -533,28 +533,28 @@ DODGE Challenger SRT8	6.4	8	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV
 DODGE Challenger SRT8	6.4	8	Auto-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV06.41P0	midsize car	5	14	23	17	2	no
 DODGE Challenger SRT8	6.4	8	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV06.41P0	midsize car	5	14	23	17	2	no
 DODGE Challenger SRT8	6.4	8	Man-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV06.41P0	midsize car	5	14	23	17	2	no
-DODGE Charger	3.6	6	Auto-8	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5/5	14/18	20/27	16/21	5/4	no
-DODGE Charger	3.6	6	Auto-8	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6/6	14/18	20/27	16/21	5/4	no
-DODGE Charger	3.6	6	Auto-8	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5/5	14/19	23/31	17/23	5/5	no
-DODGE Charger	3.6	6	Auto-8	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6/6	14/19	23/31	17/23	5/5	no
+DODGE Charger	3.6	6	Auto-8	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5	14/18	20/27	16/21	4	no
+DODGE Charger	3.6	6	Auto-8	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6	14/18	20/27	16/21	4	no
+DODGE Charger	3.6	6	Auto-8	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CCRXV03.6RNA	large car	5	14/19	23/31	17/23	5	no
+DODGE Charger	3.6	6	Auto-8	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6UPA	large car	6	14/19	23/31	17/23	5	no
 DODGE Charger	3.6	6	Auto-5	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV03.6VP0	large car	6	18	27	21	4	no
 DODGE Charger	5.7	8	Auto-5	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV05.7UP0	large car	6	15	23	18	3	no
 DODGE Charger	5.7	8	Auto-5	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXV05.7UP0	large car	6	16	25	19	3	no
 DODGE Charger SRT8	6.4	8	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV06.41P0	large car	5	14	23	17	2	no
 DODGE Charger SRT8	6.4	8	Auto-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV06.41P0	large car	5	14	23	17	2	no
-DODGE Durango	3.6	6	Auto-5	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6/6	12/16	17/23	14/19	4/3	no
-DODGE Durango	3.6	6	Auto-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6/6	12/16	17/23	14/19	4/3	no
+DODGE Durango	3.6	6	Auto-5	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6	12/16	17/23	14/19	3	no
+DODGE Durango	3.6	6	Auto-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6	12/16	17/23	14/19	3	no
 DODGE Durango	5.7	8	Auto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	SUV	6	13	20	15	1	no
 DODGE Durango	5.7	8	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	SUV	6	14	20	16	1	no
-DODGE Grand Caravan	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6/6	12/17	18/25	14/20	4/4	no
+DODGE Grand Caravan	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6	12/17	18/25	14/20	4	no
 DODGE Journey	2.4	4	Auto-4	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXJ02.4VP1	SUV	6	19	26	22	5	no
 DODGE Journey	3.6	6	Auto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6VP1	SUV	6	16	24	19	3	no
-DODGE Journey	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	SUV	6/6	13/17	18/25	15/20	4/4	no
+DODGE Journey	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	SUV	6	13/17	18/25	15/20	4	no
 DODGE RAM 1500	3.7	6	Auto-4	2WD	Gasoline	FA	B8	Federal Tier 2 Bin 8	CCRXT03.7HN0	pickup	2	14	20	16	1	no
-DODGE RAM 1500	4.7	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CCRXT04.7HNA	pickup	2/2	10/14	12/19	11/16	1/1	no
-DODGE RAM 1500	4.7	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT04.7UPA	pickup	6/6	10/14	12/19	11/16	1/1	no
-DODGE RAM 1500	4.7	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CCRXT04.7HNA	pickup	2/2	10/14	12/20	11/16	1/1	no
-DODGE RAM 1500	4.7	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT04.7UPA	pickup	6/6	10/14	12/20	11/16	1/1	no
+DODGE RAM 1500	4.7	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CCRXT04.7HNA	pickup	2	10/14	12/19	11/16	1	no
+DODGE RAM 1500	4.7	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT04.7UPA	pickup	6	10/14	12/19	11/16	1	no
+DODGE RAM 1500	4.7	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CCRXT04.7HNA	pickup	2	10/14	12/20	11/16	1	no
+DODGE RAM 1500	4.7	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT04.7UPA	pickup	6	10/14	12/20	11/16	1	no
 DODGE RAM 1500	5.7	8	Auto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	pickup	6	13	19	15	1	no
 DODGE RAM 1500	5.7	8	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	pickup	6	14	20	16	1	no
 DODGE RAM 1500 HD	5.7	8	Auto-6	2WD	Gasoline	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CCRXD05.78V0	pickup	1	N/A	N/A	N/A	N/A	no
@@ -587,7 +587,7 @@ DODGE RAM 3500	6.7	6	Man-6	4WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 G
 DODGE RAM 3500	6.7	6	Man-6	4WD	Diesel	CA	L2	California LEV-II LEV	CCEXD06.78WV	pickup	1	N/A	N/A	N/A	N/A	no
 DODGE RAM 3500	6.7	6	Man-6	2WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CCEXD06.78WV	pickup	1	N/A	N/A	N/A	N/A	no
 DODGE RAM 3500	6.7	6	Man-6	2WD	Diesel	CA	L2	California LEV-II LEV	CCEXD06.78WV	pickup	1	N/A	N/A	N/A	N/A	no
-DODGE Ram C/V	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6/6	12/17	18/25	14/20	4/4	no
+DODGE Ram C/V	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6	12/17	18/25	14/20	4	no
 DODGE Sprinter 2500 CDI	3	6	Auto-5	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CMBXT03.0HD1	van	1	N/A	N/A	N/A	N/A	no
 DODGE Sprinter 2500 CDI	3	6	Auto-5	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CMBXT03.0HD1	van	1	N/A	N/A	N/A	N/A	no
 DODGE Sprinter 2500 CDI	3	6	Auto-5	2WD	Diesel	CA	U2	California LEV-II ULEV	CMBXT03.0HD1	van	2	N/A	N/A	N/A	N/A	no
@@ -614,33 +614,33 @@ FIAT 500	1.4	4	Man-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV01.44P1	small 
 FIAT 500	1.4	4	Man-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV01.44P1	small car	5	30	38	33	8	yes
 FIAT 500 Abarth	1.4	4	Man-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXV01.44P2	small car	5	28	34	31	7	yes
 FIAT 500 Abarth	1.4	4	Man-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXV01.44P2	small car	5	28	34	31	7	yes
-FISKER Karma	2	4	Auto-1	2WD	Electricity/Gasoline	FA	B5	Federal Tier 2 Bin 5	CFSKV02.0LEV	small car	10/5	55/20	54/21	54/20	10/4	yes
-FISKER Karma	2	4	Auto-1	2WD	Electricity/Gasoline	CA	L2	California LEV-II LEV	CFSKV02.0LEV	small car	10/5	55/20	54/21	54/20	10/4	yes
-FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	9/13	12/16	10/14	1/1	no
-FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	9/13	12/17	10/15	1/1	no
-FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	9/12	12/16	10/13	1/1	no
-FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	9/12	12/16	10/14	1/1	no
-FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	special purpose	2/2	N/A	N/A	N/A	N/A	no
-FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2/2	9/13	12/17	10/15	1/1	no
-FORD E250 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E250 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	9/12	12/16	10/14	1/1	no
+FISKER Karma	2	4	Auto-1	2WD	Gasoline/Electricity	FA	B5	Federal Tier 2 Bin 5	CFSKV02.0LEV	small car	5	20/55	21/54	20/54	10	yes
+FISKER Karma	2	4	Auto-1	2WD	Gasoline/Electricity	CA	L2	California LEV-II LEV	CFSKV02.0LEV	small car	5	20/55	21/54	20/54	10	yes
+FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	N/A	N/A	N/A	N/A	no
+FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	N/A	N/A	N/A	N/A	no
+FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	9/13	12/16	10/14	1	no
+FORD E150 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	9/13	12/17	10/15	1	no
+FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	9/12	12/16	10/13	1	no
+FORD E150 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	9/12	12/16	10/14	1	no
+FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	N/A	N/A	N/A	N/A	no
+FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	special purpose	2	N/A	N/A	N/A	N/A	no
+FORD E250 FFV	4.6	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT04.65H9	van	2	9/13	12/17	10/15	1	no
+FORD E250 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E250 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	9/12	12/16	10/14	1	no
 FORD E350	5.4	8	Auto-4	2WD	Gasoline	CA	B8	Federal Tier 2 Bin 8	CFMXT05.45HL	van	2	N/A	N/A	N/A	N/A	no
 FORD E350	5.4	8	Auto-4	2WD	Gasoline	FA	B8	Federal Tier 2 Bin 8	CFMXT05.45HL	van	2	N/A	N/A	N/A	N/A	no
 FORD E350	6.8	10	Auto-5	2WD	Gasoline	FC	B8	Federal Tier 2 Bin 8	CFMXT06.85HT	van	2	N/A	N/A	N/A	N/A	no
 FORD E350	6.8	10	Auto-5	2WD	Gasoline	FC	B8	Federal Tier 2 Bin 8	CFMXT06.85HT	van	2	N/A	N/A	N/A	N/A	no
 FORD E350	6.8	10	Auto-5	2WD	Gasoline	FC	B8	Federal Tier 2 Bin 8	CFMXT06.85HT	van	2	10	13	11	1	no
 FORD E350	6.8	10	Auto-5	2WD	Gasoline	FC	B8	Federal Tier 2 Bin 8	CFMXT06.85HT	van	2	10	14	12	1	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	CA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	N/A	N/A	N/A	N/A	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	special purpose	2/2	N/A	N/A	N/A	N/A	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	9/11	11/15	10/13	1/1	no
-FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2/2	9/12	12/16	10/13	1/1	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	CA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	N/A	N/A	N/A	N/A	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	special purpose	2	N/A	N/A	N/A	N/A	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	9/11	11/15	10/13	1	no
+FORD E350 FFV	5.4	8	Auto-4	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45HK	van	2	9/12	12/16	10/13	1	no
 FORD Edge	2	4	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT02.02E2	SUV	5	21	30	24	5	no
 FORD Edge	2	4	Auto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXT02.02E2	SUV	6	21	30	24	5	no
 FORD Edge	3.5	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT03.72EE	SUV	5	18	25	21	4	no
@@ -656,17 +656,17 @@ FORD Escape	2.5	4	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT02.51EN	SU
 FORD Escape	2.5	4	Auto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXT02.51EN	SUV	6	21	28	23	5	no
 FORD Escape	2.5	4	Man-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT02.51EN	SUV	5	23	28	25	6	no
 FORD Escape	2.5	4	Man-5	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXT02.51EN	SUV	6	23	28	25	6	yes
-FORD Escape FFV	3	6	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.02DE	SUV	6/6	13/18	17/23	14/20	4/4	no
-FORD Escape FFV	3	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.01DG	SUV	6/6	14/19	19/25	16/21	5/4	no
+FORD Escape FFV	3	6	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.02DE	SUV	6	13/18	17/23	14/20	4	no
+FORD Escape FFV	3	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.01DG	SUV	6	14/19	19/25	16/21	4	no
 FORD Escape Hybrid	2.5	4	CVT	4WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CFMXT02.52ZG	SUV	7	30	27	29	7	yes
 FORD Escape Hybrid	2.5	4	CVT	4WD	Gasoline	CA	PZEV	California PZEV	CFMXT02.52ZG	SUV	9	30	27	29	7	yes
 FORD Escape Hybrid	2.5	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CFMXT02.52ZG	SUV	7	34	31	32	7	yes
 FORD Escape Hybrid	2.5	4	CVT	2WD	Gasoline	CA	PZEV	California PZEV	CFMXT02.52ZG	SUV	9	34	31	32	7	yes
-FORD Expedition FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6/6	9/13	13/18	11/15	1/1	no
-FORD Expedition FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2/2	9/13	13/18	11/15	1/1	no
-FORD Expedition FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6/6	10/14	14/20	12/16	2/1	no
-FORD Expedition FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2/2	10/14	14/20	12/16	2/1	no
-FORD Expedition Limo FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45BR	SUV	2/2	N/A	N/A	N/A	N/A	no
+FORD Expedition FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6	9/13	13/18	11/15	1	no
+FORD Expedition FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2	9/13	13/18	11/15	1	no
+FORD Expedition FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6	10/14	14/20	12/16	1	no
+FORD Expedition FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2	10/14	14/20	12/16	1	no
+FORD Expedition Limo FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45BR	SUV	2	N/A	N/A	N/A	N/A	no
 FORD Explorer	2	4	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT02.02E2	SUV	5	20	28	23	5	no
 FORD Explorer	2	4	Auto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXT02.02E2	SUV	6	20	28	23	5	no
 FORD Explorer	3.5	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXT03.53EZ	SUV	5	17	23	19	3	no
@@ -679,14 +679,14 @@ FORD F150	3.5	6	SemiAuto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXT03.54EP	
 FORD F150	3.5	6	SemiAuto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXT03.54EP	pickup	6	16	22	18	3	no
 FORD F150	6.2	8	SemiAuto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXT06.24D2	pickup	6	12	16	13	1	no
 FORD F150	6.2	8	SemiAuto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXT06.24D2	pickup	6	13	18	14	1	no
-FORD F150 FFV	3.7	6	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6/6	12/16	15/21	13/18	3/3	no
-FORD F150 FFV	3.7	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6/6	12/17	17/23	14/19	4/3	no
-FORD F150 FFV	3.7	6	SemiAuto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6/6	12/16	15/21	13/18	3/3	no
-FORD F150 FFV	3.7	6	SemiAuto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6/6	12/17	17/23	14/19	4/3	no
-FORD F150 FFV	5	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6/6	11/14	14/19	12/16	2/1	no
-FORD F150 FFV	5	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6/6	11/15	15/21	13/17	3/2	no
-FORD F150 FFV	5	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6/6	11/14	14/19	12/16	2/1	no
-FORD F150 FFV	5	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6/6	11/15	15/21	13/17	3/2	no
+FORD F150 FFV	3.7	6	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6	12/16	15/21	13/18	3	no
+FORD F150 FFV	3.7	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6	12/17	17/23	14/19	3	no
+FORD F150 FFV	3.7	6	SemiAuto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6	12/16	15/21	13/18	3	no
+FORD F150 FFV	3.7	6	SemiAuto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT03.73DP	pickup	6	12/17	17/23	14/19	3	no
+FORD F150 FFV	5	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6	11/14	14/19	12/16	1	no
+FORD F150 FFV	5	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6	11/15	15/21	13/17	2	no
+FORD F150 FFV	5	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6	11/14	14/19	12/16	1	no
+FORD F150 FFV	5	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.03DD	pickup	6	11/15	15/21	13/17	2	no
 FORD F150 Raptor	6.2	8	SemiAuto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXT06.24D2	pickup	6	11	16	13	1	no
 FORD F250	6.7	8	SemiAuto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CFMXD06.761A	pickup	1	N/A	N/A	N/A	N/A	no
 FORD F250	6.7	8	SemiAuto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CFMXD06.761A	special purpose	1	N/A	N/A	N/A	N/A	no
@@ -696,10 +696,10 @@ FORD F250	6.7	8	SemiAuto-6	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b 
 FORD F250	6.7	8	SemiAuto-6	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CFMXD06.761A	special purpose	1	N/A	N/A	N/A	N/A	no
 FORD F250	6.7	8	SemiAuto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.761A	pickup	2	N/A	N/A	N/A	N/A	no
 FORD F250	6.7	8	SemiAuto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.761A	special purpose	2	N/A	N/A	N/A	N/A	no
-FORD F250 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2/2	N/A	N/A	N/A	N/A	no
-FORD F250 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2/2	N/A	N/A	N/A	N/A	no
-FORD F250 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2/2	N/A	N/A	N/A	N/A	no
-FORD F250 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2/2	N/A	N/A	N/A	N/A	no
+FORD F250 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2	N/A	N/A	N/A	N/A	no
+FORD F250 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2	N/A	N/A	N/A	N/A	no
+FORD F250 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2	N/A	N/A	N/A	N/A	no
+FORD F250 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2	N/A	N/A	N/A	N/A	no
 FORD F350	6.7	8	SemiAuto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CFMXD06.761A	pickup	1	N/A	N/A	N/A	N/A	no
 FORD F350	6.7	8	SemiAuto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CFMXD06.761A	special purpose	1	N/A	N/A	N/A	N/A	no
 FORD F350	6.7	8	SemiAuto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.761A	pickup	2	N/A	N/A	N/A	N/A	no
@@ -716,10 +716,10 @@ FORD F350	6.7	8	SemiAuto-6	2WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 G
 FORD F350	6.7	8	SemiAuto-6	2WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CFMXD06.771C	special purpose	1	N/A	N/A	N/A	N/A	no
 FORD F350	6.7	8	SemiAuto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.771C	pickup	1	N/A	N/A	N/A	N/A	no
 FORD F350	6.7	8	SemiAuto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.771C	special purpose	1	N/A	N/A	N/A	N/A	no
-FORD F350 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2/2	N/A	N/A	N/A	N/A	no
-FORD F350 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2/2	N/A	N/A	N/A	N/A	no
-FORD F350 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2/2	N/A	N/A	N/A	N/A	no
-FORD F350 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2/2	N/A	N/A	N/A	N/A	no
+FORD F350 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2	N/A	N/A	N/A	N/A	no
+FORD F350 FFV	6.2	8	SemiAuto-6	4WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2	N/A	N/A	N/A	N/A	no
+FORD F350 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	pickup	2	N/A	N/A	N/A	N/A	no
+FORD F350 FFV	6.2	8	SemiAuto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT06.27HL	special purpose	2	N/A	N/A	N/A	N/A	no
 FORD F450 4X4	6.7	8	SemiAuto-6	4WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CFMXD06.771C	pickup	1	N/A	N/A	N/A	N/A	no
 FORD F450 4X4	6.7	8	SemiAuto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CFMXD06.771C	pickup	1	N/A	N/A	N/A	N/A	no
 FORD Fiesta	1.6	4	AutoMan-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXV01.6VDB	small car	6	29	39	33	8	yes
@@ -740,11 +740,11 @@ FORD Focus	2	4	Man-5	2WD	Gasoline	CA	PZEV	California PZEV	CFMXV02.0VZ2	small car
 FORD Focus	2	4	Other-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD9	small car	6	27	37	31	7	yes
 FORD Focus	2	4	Other-6	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CFMXV02.0VZ2	small car	7	27	37	31	7	yes
 FORD Focus	2	4	Other-6	2WD	Gasoline	CA	PZEV	California PZEV	CFMXV02.0VZ2	small car	9	27	37	31	7	yes
-FORD Focus FFV	2	4	AutoMan-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6/6	19/28	28/38	22/31	7/7	yes
-FORD Focus FFV	2	4	Man-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6/6	19/26	26/36	22/30	7/7	yes
-FORD Focus FFV	2	4	Other-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6/6	19/28	28/38	22/31	7/7	yes
+FORD Focus FFV	2	4	AutoMan-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6	19/28	28/38	22/31	7	yes
+FORD Focus FFV	2	4	Man-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6	19/26	26/36	22/30	7	yes
+FORD Focus FFV	2	4	Other-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6	19/28	28/38	22/31	7	yes
 FORD Focus SFE	2	4	AutoMan-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD9	small car	6	28	40	33	8	yes
-FORD Focus SFE FFV	2	4	AutoMan-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6/6	20/28	28/40	23/33	8/8	yes
+FORD Focus SFE FFV	2	4	AutoMan-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXV02.0VD2	small car	6	20/28	28/40	23/33	8	yes
 FORD Fusion	2.5	4	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV02.5VEN	midsize car	5	23	33	26	6	no
 FORD Fusion	2.5	4	Auto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXV02.5VEN	midsize car	6	23	33	26	6	yes
 FORD Fusion	2.5	4	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV02.5VEN	midsize car	5	22	29	24	5	no
@@ -755,8 +755,8 @@ FORD Fusion	3.5	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV03.7VE
 FORD Fusion	3.5	6	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXV03.7VEL	midsize car	6	17	25	19	3	no
 FORD Fusion	3.5	6	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV03.7VEL	midsize car	5	18	27	21	4	no
 FORD Fusion	3.5	6	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXV03.7VEL	midsize car	6	18	27	21	4	no
-FORD Fusion FFV	3	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CFMXV03.0VEG	midsize car	5/5	13/18	19/26	15/20	4/4	no
-FORD Fusion FFV	3	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CFMXV03.0VEG	midsize car	5/5	14/20	21/28	16/23	5/5	no
+FORD Fusion FFV	3	6	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CFMXV03.0VEG	midsize car	5	13/18	19/26	15/20	4	no
+FORD Fusion FFV	3	6	SemiAuto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CFMXV03.0VEG	midsize car	5	14/20	21/28	16/23	5	no
 FORD Fusion Hybrid	2.5	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CFMXV02.5VZH	midsize car	7	41	36	39	9	yes
 FORD Fusion Hybrid	2.5	4	CVT	2WD	Gasoline	CA	PZEV	California PZEV	CFMXV02.5VZH	midsize car	9	41	36	39	9	yes
 FORD Fusion S	2.5	4	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV02.5VEN	midsize car	5	22	32	25	6	no
@@ -801,76 +801,76 @@ GMC Canyon	5.3	8	Auto-4	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3377	pic
 GMC Canyon	5.3	8	Auto-4	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3377	pickup	6	14	20	16	1	no
 GMC Savana 1500	4.3	6	Auto-4	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT04.3186	van	5	15	20	17	2	no
 GMC Savana 1500	4.3	6	Auto-4	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	van	5	15	20	17	2	no
-GMC Savana 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	9/13	12/17	10/14	1/1	no
-GMC Savana 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	9/13	12/17	10/14	1/1	no
-GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/17	11/14	1/1	no
-GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/17	11/14	1/1	no
-GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6/6	10/13	13/18	11/15	1/1	no
-GMC Savana 2500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	12/17	10/13	1/1	no
-GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	7/10	11/15	9/12	1/1	no
-GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	11/16	9/13	1/1	no
-GMC Savana 3500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/11	12/17	10/13	1/1	no
-GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	N/A	N/A	N/A	N/A	no
-GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	7/10	11/14	9/11	1/1	no
-GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2/2	8/10	11/15	9/12	1/1	no
+GMC Savana 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	9/13	12/17	10/14	1	no
+GMC Savana 1500	5.3	8	Auto-4	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	9/13	12/17	10/14	1	no
+GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/17	11/14	1	no
+GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/17	11/14	1	no
+GMC Savana 1500	5.3	8	Auto-4	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	van	6	10/13	13/18	11/15	1	no
+GMC Savana 2500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	12/17	10/13	1	no
+GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	7/10	11/15	9/12	1	no
+GMC Savana 2500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	11/16	9/13	1	no
+GMC Savana 3500	4.8	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/11	12/17	10/13	1	no
+GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	N/A	N/A	N/A	N/A	no
+GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	7/10	11/14	9/11	1	no
+GMC Savana 3500	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	van	2	8/10	11/15	9/12	1	no
 GMC Sierra 15	4.3	6	Auto-4	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT04.3186	pickup	5	14	18	15	1	no
 GMC Sierra 15	4.3	6	Auto-4	4WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	pickup	5	14	18	15	1	no
 GMC Sierra 15	4.3	6	Auto-4	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT04.3186	pickup	5	15	20	17	2	no
 GMC Sierra 15	4.3	6	Auto-4	2WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT04.3186	pickup	5	15	20	17	2	no
-GMC Sierra 15	4.8	8	Auto-4	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	10/13	13/18	11/15	1/1	no
-GMC Sierra 15	4.8	8	Auto-4	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	10/14	14/19	12/16	2/1	no
-GMC Sierra 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/21	13/17	3/2	no
-GMC Sierra 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/21	13/17	3/2	no
-GMC Sierra 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/21	13/17	3/2	no
-GMC Sierra 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/21	13/17	3/2	no
-GMC Sierra 15	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5/5	9/12	13/18	10/14	1/1	no
-GMC Sierra 15	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5/5	9/13	13/18	11/14	1/1	no
+GMC Sierra 15	4.8	8	Auto-4	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	10/13	13/18	11/15	1	no
+GMC Sierra 15	4.8	8	Auto-4	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	10/14	14/19	12/16	1	no
+GMC Sierra 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/21	13/17	2	no
+GMC Sierra 15	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/21	13/17	2	no
+GMC Sierra 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/21	13/17	2	no
+GMC Sierra 15	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/21	13/17	2	no
+GMC Sierra 15	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5	9/12	13/18	10/14	1	no
+GMC Sierra 15	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	pickup	5	9/13	13/18	11/14	1	no
 GMC Sierra 15 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	pickup	5	20	23	21	4	no
 GMC Sierra 15 Hybrid	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	pickup	5	20	23	21	4	no
-GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5/5	11/15	16/22	13/18	3/3	no
-GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6/6	11/15	16/22	13/18	3/3	no
-GMC Sierra 25	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
-GMC Sierra 25	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
+GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	pickup	5	11/15	16/22	13/18	3	no
+GMC Sierra 15 XFE	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	pickup	6	11/15	16/22	13/18	3	no
+GMC Sierra 25	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
+GMC Sierra 25	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
 GMC Sierra 25	6.6	8	Auto-6	4WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CGMXD06.6355	pickup	1	N/A	N/A	N/A	N/A	no
 GMC Sierra 25	6.6	8	Auto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6355	pickup	2	N/A	N/A	N/A	N/A	no
 GMC Sierra 25	6.6	8	Auto-6	2WD	Diesel	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CGMXD06.6355	pickup	1	N/A	N/A	N/A	N/A	no
 GMC Sierra 25	6.6	8	Auto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6355	pickup	2	N/A	N/A	N/A	N/A	no
-GMC Sierra 35	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
-GMC Sierra 35	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2/2	N/A	N/A	N/A	N/A	no
+GMC Sierra 35	6	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
+GMC Sierra 35	6	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CGMXT06.0396	pickup	2	N/A	N/A	N/A	N/A	no
 GMC Sierra 35	6.6	8	Auto-6	4WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
 GMC Sierra 35	6.6	8	Auto-6	4WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
 GMC Sierra 35	6.6	8	Auto-6	2WD	Diesel	FA	HDV2	HDV2 (Federal HD chassis Class 3 GVW 10001-14000)	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
 GMC Sierra 35	6.6	8	Auto-6	2WD	Diesel	CA	U2	California LEV-II ULEV	CGMXD06.6365	pickup	1	N/A	N/A	N/A	N/A	no
-GMC Terrain	2.4	4	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6/6	14/20	20/29	17/23	5/5	no
+GMC Terrain	2.4	4	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6	14/20	20/29	17/23	5	no
 GMC Terrain	2.4	4	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4150	SUV	6	20	29	23	5	no
 GMC Terrain	2.4	4	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4199	SUV	6	20	29	23	5	no
-GMC Terrain	2.4	4	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6/6	15/22	22/32	18/26	6/6	yes
+GMC Terrain	2.4	4	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4151	SUV	6	15/22	22/32	18/26	6	yes
 GMC Terrain	2.4	4	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4150	SUV	6	22	32	26	6	yes
 GMC Terrain	2.4	4	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXJ02.4199	SUV	6	22	32	26	6	yes
-GMC Terrain	3	6	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6/6	12/16	17/23	14/19	4/3	no
+GMC Terrain	3	6	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6	12/16	17/23	14/19	3	no
 GMC Terrain	3	6	Auto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	16	23	19	3	no
-GMC Terrain	3	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6/6	12/17	18/24	14/20	4/4	no
+GMC Terrain	3	6	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0159	SUV	6	12/17	18/24	14/20	4	no
 GMC Terrain	3	6	Auto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	17	24	20	4	no
-GMC Yukon 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/14	15/18	12/16	2/1	no
+GMC Yukon 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+GMC Yukon 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+GMC Yukon 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+GMC Yukon 1500	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+GMC Yukon 1500	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/14	15/18	12/16	1	no
 GMC Yukon 1500 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
-GMC Yukon 1500 XL	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500 XL	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-GMC Yukon 1500 XL	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/14	15/18	12/16	2/1	no
+GMC Yukon 1500 XL	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+GMC Yukon 1500 XL	5.3	8	Auto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+GMC Yukon 1500 XL	6.2	8	Auto-6	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/14	15/18	12/16	1	no
 GMC Yukon 2500 XL	6	8	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	N/A	N/A	N/A	N/A	no
 GMC Yukon 2500 XL	6	8	Auto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	10	16	12	1	no
-GMC Yukon Denali 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	10/13	14/18	12/15	2/1	no
+GMC Yukon Denali 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	10/13	14/18	12/15	1	no
 GMC Yukon Denali 1500 Hybrid	6	8	CVT	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
-GMC Yukon XL 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5/5	11/15	16/21	13/17	3/2	no
-GMC Yukon XL 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6/6	11/15	16/21	13/17	3/2	no
-GMC Yukon XL 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6/6	9/13	13/18	10/14	1/1	no
-GMC Yukon XL 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5/5	9/13	13/18	10/14	1/1	no
+GMC Yukon XL 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT05.3373	SUV	5	11/15	16/21	13/17	2	no
+GMC Yukon XL 1500	5.3	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT05.3381	SUV	6	11/15	16/21	13/17	2	no
+GMC Yukon XL 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CGMXT06.2374	SUV	6	9/13	13/18	10/14	1	no
+GMC Yukon XL 1500	6.2	8	Auto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CGMXT06.2375	SUV	5	9/13	13/18	10/14	1	no
 GMC Yukon XL 2500	6	8	Auto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	N/A	N/A	N/A	N/A	no
 GMC Yukon XL 2500	6	8	Auto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0395	SUV	5	10	15	12	1	no
 GMC Yukun 1500	6	8	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT06.0371	SUV	5	20	23	21	4	no
@@ -1088,8 +1088,8 @@ JEEP Compass	2.4	4	Man-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXT02.44P0	SU
 JEEP Compass	2.4	4	Man-5	4WD	Gasoline	CA	L2	California LEV-II LEV	CCRXT02.44P0	SUV	5	22	28	24	5	no
 JEEP Compass	2.4	4	Man-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXJ02.44P1	SUV	5	23	28	25	6	no
 JEEP Compass	2.4	4	Man-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CCRXJ02.44P1	SUV	5	23	28	25	6	no
-JEEP Grand Cherokee	3.6	6	Auto-5	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6/6	12/16	17/23	14/19	4/3	no
-JEEP Grand Cherokee	3.6	6	Auto-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6/6	13/17	17/23	14/19	4/3	no
+JEEP Grand Cherokee	3.6	6	Auto-5	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6	12/16	17/23	14/19	3	no
+JEEP Grand Cherokee	3.6	6	Auto-5	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXT03.6UPA	SUV	6	13/17	17/23	14/19	3	no
 JEEP Grand Cherokee	5.7	8	Auto-6	4WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	SUV	6	13	20	15	1	no
 JEEP Grand Cherokee	5.7	8	Auto-6	2WD	Gasoline	FC	B4	Federal Tier 2 Bin 4	CCRXT05.7VP0	SUV	6	14	20	16	1	no
 JEEP Grand Cherokee SRT8	6.4	8	Auto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CCRXT06.41P1	SUV	5	12	18	14	1	no
@@ -1276,11 +1276,11 @@ LINCOLN MKZ	3.5	6	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CFMXV03.7VE
 LINCOLN MKZ	3.5	6	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CFMXV03.7VEL	midsize car	6	18	27	21	4	no
 LINCOLN MKZ Hybrid	2.5	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CFMXV02.5VZH	midsize car	7	41	36	39	9	yes
 LINCOLN MKZ Hybrid	2.5	4	CVT	2WD	Gasoline	CA	PZEV	California PZEV	CFMXV02.5VZH	midsize car	9	41	36	39	9	yes
-LINCOLN Navigator FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6/6	9/13	13/18	11/15	1/1	no
-LINCOLN Navigator FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2/2	9/13	13/18	11/15	1/1	no
-LINCOLN Navigator FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6/6	10/14	14/20	12/16	2/1	no
-LINCOLN Navigator FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2/2	10/14	14/20	12/16	2/1	no
-LINCOLN Navigator Limo FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45BR	special purpose	2/2	N/A	N/A	N/A	N/A	no
+LINCOLN Navigator FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6	9/13	13/18	11/15	1	no
+LINCOLN Navigator FFV	5.4	8	Auto-6	4WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2	9/13	13/18	11/15	1	no
+LINCOLN Navigator FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CFMXT05.44BC	SUV	6	10/14	14/20	12/16	1	no
+LINCOLN Navigator FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FA	B8	Federal Tier 2 Bin 8	CFMXT05.44HY	SUV	2	10/14	14/20	12/16	1	no
+LINCOLN Navigator Limo FFV	5.4	8	Auto-6	2WD	Ethanol/Gas	FC	B8	Federal Tier 2 Bin 8	CFMXT05.45BR	special purpose	2	N/A	N/A	N/A	N/A	no
 LOTUS Evora	3.5	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CLTXV03.5JHB	small car	5	17	26	20	4	no
 LOTUS Evora	3.5	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CLTXV03.5JHB	small car	5	18	26	21	4	no
 LOTUS Evora	3.5	6	Man-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CLTXV03.5JHB	small car	5	17	26	20	4	no
@@ -1351,12 +1351,12 @@ MERCEDES-BENZ C250	1.8	4	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV01.
 MERCEDES-BENZ C250	1.8	4	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV01.8U2A	small car	5	21	31	25	6	no
 MERCEDES-BENZ C250	1.8	4	Auto-7	2WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV01.8U2A	small car	6	21	31	25	6	yes
 MERCEDES-BENZ C250	1.8	4	Auto-7	2WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV01.8U2A	small car	6	21	31	25	6	yes
-MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXV03.0L2A	small car	5/5	13/18	18/25	15/20	4/4	no
-MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXV03.0L2A	small car	5/3	13/18	18/25	15/20	4/4	no
+MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXV03.0L2A	small car	5	13/18	18/25	15/20	4	no
+MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXV03.0L2A	small car	3	13/18	18/25	15/20	4	no
 MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CMBXJ03.5S2A	small car	6	17	24	20	4	no
 MERCEDES-BENZ C300 4Matic	3	6	Auto-7	4WD	Gasoline	CA	PZEV	California PZEV	CMBXJ03.5S2A	small car	9	17	24	20	4	no
-MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5/5	15/19	22/29	17/23	5/5	no
-MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	6/5	15/19	22/29	17/23	5/5	no
+MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5	15/19	22/29	17/23	5	no
+MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	5	15/19	22/29	17/23	5	no
 MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CMBXV03.5S2A	small car	6	20	29	23	5	no
 MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Gasoline	CA	PZEV	California PZEV	CMBXV03.5S2A	small car	9	20	29	23	5	no
 MERCEDES-BENZ C350	3.5	6	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV03.5U2A	small car	5	19	28	22	5	no
@@ -1383,8 +1383,8 @@ MERCEDES-BENZ CLS550 4Matic	4.7	8	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5
 MERCEDES-BENZ CLS550 4Matic	4.7	8	Auto-7	4WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV05.5U2B	small car	6	16	25	19	3	no
 MERCEDES-BENZ CLS63 AMG	5.5	8	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV05.5U2B	small car	5	16	25	19	3	no
 MERCEDES-BENZ CLS63 AMG	5.5	8	Auto-7	2WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV05.5U2B	small car	6	16	25	19	3	no
-MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5/5	15/20	21/28	17/23	5/5	no
-MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	6/5	15/20	21/28	17/23	5/5	no
+MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5	15/20	21/28	17/23	5	no
+MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	5	15/20	21/28	17/23	5	no
 MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CMBXV03.5S2A	small car	6	19	29	22	5	no
 MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CMBXV03.5S2A	midsize car	6	20	30	23	5	no
 MERCEDES-BENZ E350	3.5	6	Auto-7	2WD	Gasoline	CA	PZEV	California PZEV	CMBXV03.5S2A	small car	9	19	29	22	5	no
@@ -1397,8 +1397,8 @@ MERCEDES-BENZ E350 4Matic	3.5	6	Auto-7	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	C
 MERCEDES-BENZ E350 4Matic	3.5	6	Auto-7	4WD	Gasoline	CA	PZEV	California PZEV	CMBXV03.5S2A	midsize car	9	19	29	23	5	no
 MERCEDES-BENZ E350 4Matic	3.5	6	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV03.5U2A	midsize car	5	19	29	23	5	no
 MERCEDES-BENZ E350 4Matic	3.5	6	Auto-7	4WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV03.5U2A	midsize car	6	19	29	23	5	no
-MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5/5	14/19	20/27	16/22	5/5	no
-MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	6/5	14/19	20/27	16/22	5/5	no
+MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5	14/19	20/27	16/22	5	no
+MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	5	14/19	20/27	16/22	5	no
 MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CMBXV03.5S2A	small car	6	19	28	22	5	no
 MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Gasoline	CA	PZEV	California PZEV	CMBXV03.5S2A	small car	9	19	28	22	5	no
 MERCEDES-BENZ E350 4Matic (coupe)	3.5	6	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV03.5U2A	small car	5	19	28	22	5	no
@@ -1407,8 +1407,8 @@ MERCEDES-BENZ E350 4Matic Wagon	3.5	6	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 B
 MERCEDES-BENZ E350 4Matic Wagon	3.5	6	Auto-7	4WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV03.5U2A	station wagon	6	19	27	22	5	no
 MERCEDES-BENZ E350 Bluetec	3	6	Auto-7	2WD	Diesel	FA	B5	Federal Tier 2 Bin 5	CMBXV03.0U2B	midsize car	5	21	32	25	5	no
 MERCEDES-BENZ E350 Bluetec	3	6	Auto-7	2WD	Diesel	CA	U2	California LEV-II ULEV	CMBXV03.0U2B	midsize car	6	21	32	25	5	no
-MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5/5	13/19	19/28	16/22	5/5	no
-MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	6/5	13/19	19/28	16/22	5/5	no
+MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	small car	5	13/19	19/28	16/22	5	no
+MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	small car	5	13/19	19/28	16/22	5	no
 MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV03.5U2A	small car	5	19	28	22	5	no
 MERCEDES-BENZ E350 Convertible	3.5	6	Auto-7	2WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXV03.5U2A	small car	6	19	28	22	5	no
 MERCEDES-BENZ E550	4.7	8	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXV05.5U2B	small car	5	17	27	21	4	no
@@ -1437,8 +1437,8 @@ MERCEDES-BENZ GLK350 4Matic	3.5	6	Auto-7	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4
 MERCEDES-BENZ GLK350 4Matic	3.5	6	Auto-7	4WD	Gasoline	CA	PZEV	California PZEV	CMBXJ03.5S2A	SUV	9	16	21	18	3	no
 MERCEDES-BENZ GLK350 4Matic	3.5	6	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2C	SUV	5	16	21	18	3	no
 MERCEDES-BENZ GLK350 4Matic	3.5	6	Auto-7	4WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXJ03.5U2C	SUV	6	16	21	18	3	no
-MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	SUV	5/5	13/18	17/23	15/20	4/4	no
-MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	SUV	6/5	13/18	17/23	15/20	4/4	no
+MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CMBXJ03.5U2B	SUV	5	13/18	17/23	15/20	4	no
+MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Ethanol/Gas	CA	L2	California LEV-II LEV	CMBXJ03.5U2B	SUV	5	13/18	17/23	15/20	4	no
 MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMBXT03.5U2A	SUV	5	17	22	19	3	no
 MERCEDES-BENZ ML350 4Matic	3.5	6	Auto-7	4WD	Gasoline	CA	U2	California LEV-II ULEV	CMBXT03.5U2A	SUV	6	17	22	19	3	no
 MERCEDES-BENZ ML350 Bluetec 4Matic	3	6	Auto-7	4WD	Diesel	FA	B5	Federal Tier 2 Bin 5	CMBXT03.0U2A	SUV	5	20	27	22	4	no
@@ -1602,8 +1602,8 @@ MITSUBISHI Outlander Sport	2	4	SCV-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMT
 MITSUBISHI Outlander Sport	2	4	SCV-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CMTXT02.4GRB	SUV	5	23	28	25	6	no
 MITSUBISHI Outlander Sport	2	4	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMTXT02.4GRB	SUV	5	25	31	27	6	no
 MITSUBISHI Outlander Sport	2	4	SCV-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CMTXT02.4GRB	SUV	5	25	31	27	6	no
-MITSUBISHI i-MiEV	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CMTXV00.0EWB	small car	10	126	99	112	10	yes
-MITSUBISHI i-MiEV	-1		Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CMTXV00.0EWB	small car	10	126	99	112	10	yes
+MITSUBISHI i-MiEV	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CMTXV00.0EWB	small car	10	126	99	112	10	yes
+MITSUBISHI i-MiEV	N/A	N/A	Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CMTXV00.0EWB	small car	10	126	99	112	10	yes
 McLAREN MP4-12C Coupe	3.8	8	Auto-7	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CMLNV03.8MA1	small car	5	15	22	18	3	no
 McLAREN MP4-12C Coupe	3.8	8	Auto-7	2WD	Gasoline	CA	L2	California LEV-II LEV	CMLNV03.8MA1	small car	5	15	22	18	3	no
 NISSAN 370Z	3.7	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.7GAA	small car	5	18	26	21	4	no
@@ -1632,10 +1632,10 @@ NISSAN Altima Coupe	3.5	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.
 NISSAN Altima Coupe	3.5	6	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.5G7A	small car	5	20	27	23	5	no
 NISSAN Altima Coupe	3.5	6	SCV-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CNSXV03.5G7A	small car	6	20	27	23	5	no
 NISSAN Altima Coupe	3.5	6	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.5G7C	small car	5	20	27	23	5	no
-NISSAN Armada	5.6	8	Auto-5	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	SUV	5/5	9/12	13/18	11/14	1/1	no
+NISSAN Armada	5.6	8	Auto-5	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	SUV	5	9/12	13/18	11/14	1	no
 NISSAN Armada	5.6	8	Auto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9A	SUV	5	12	18	14	1	no
 NISSAN Armada	5.6	8	Auto-5	4WD	Gasoline	CA	L2	California LEV-II LEV	CNSXT05.6G9A	SUV	5	12	18	14	1	no
-NISSAN Armada	5.6	8	Auto-5	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	SUV	5/5	9/12	13/19	11/15	1/1	no
+NISSAN Armada	5.6	8	Auto-5	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	SUV	5	9/12	13/19	11/15	1	no
 NISSAN Armada	5.6	8	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9A	SUV	5	13	19	15	1	no
 NISSAN Armada	5.6	8	Auto-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CNSXT05.6G9A	SUV	5	13	19	15	1	no
 NISSAN Cube	1.8	4	CVT	2WD	Gasoline	CA	S2	California LEV-II SULEV	CNSXV01.881A	station wagon	8	27	31	28	7	yes
@@ -1662,8 +1662,8 @@ NISSAN Frontier	4	6	Man-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CNSXT04.0G6A
 NISSAN Frontier	4	6	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXT04.0G6B	pickup	5	16	20	17	2	no
 NISSAN GT-R	3.8	6	AutoMan-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.8GBA	small car	5	16	23	19	3	no
 NISSAN GT-R	3.8	6	AutoMan-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CNSXV03.8GBA	small car	6	16	23	19	3	no
-NISSAN Leaf	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CNSXV0000LLA	midsize car	10	106	92	99	10	yes
-NISSAN Leaf	-1		Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CNSXV0000LLA	midsize car	10	106	92	99	10	yes
+NISSAN Leaf	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CNSXV0000LLA	midsize car	10	106	92	99	10	yes
+NISSAN Leaf	N/A	N/A	Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CNSXV0000LLA	midsize car	10	106	92	99	10	yes
 NISSAN Maxima	3.5	6	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.5G7B	midsize car	5	19	26	22	5	no
 NISSAN Maxima	3.5	6	SCV-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CNSXV03.5G7B	midsize car	6	19	26	22	5	no
 NISSAN Maxima	3.5	6	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV03.5G7D	midsize car	5	19	26	22	5	no
@@ -1711,10 +1711,10 @@ NISSAN Sentra	2.5	4	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV02.5G5A	m
 NISSAN Sentra	2.5	4	Man-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CNSXV02.5G5A	midsize car	5	21	28	24	5	no
 NISSAN Sentra	2.5	4	SCV-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV02.5G5A	midsize car	5	24	30	26	6	no
 NISSAN Sentra	2.5	4	SCV-6	2WD	Gasoline	CA	L2	California LEV-II LEV	CNSXV02.5G5A	midsize car	5	24	30	26	6	no
-NISSAN Titan	5.6	8	Auto-5	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	pickup	5/5	9/12	12/17	10/14	1/1	no
+NISSAN Titan	5.6	8	Auto-5	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	pickup	5	9/12	12/17	10/14	1	no
 NISSAN Titan	5.6	8	Auto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9A	pickup	5	12	17	14	1	no
 NISSAN Titan	5.6	8	Auto-5	4WD	Gasoline	CA	L2	California LEV-II LEV	CNSXT05.6G9A	pickup	5	12	17	14	1	no
-NISSAN Titan	5.6	8	Auto-5	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	pickup	5/5	9/13	13/18	11/15	1/1	no
+NISSAN Titan	5.6	8	Auto-5	2WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9B	pickup	5	9/13	13/18	11/15	1	no
 NISSAN Titan	5.6	8	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXT05.6G9A	pickup	5	13	18	15	1	no
 NISSAN Titan	5.6	8	Auto-5	2WD	Gasoline	CA	L2	California LEV-II LEV	CNSXT05.6G9A	pickup	5	13	18	15	1	no
 NISSAN Versa	1.6	4	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CNSXV01.6G4A	small car	5	30	38	33	8	yes
@@ -1870,8 +1870,8 @@ PORSCHE Panamera Turbo	4.8	8	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CPRX
 PORSCHE Panamera Turbo	4.8	8	Auto-7	4WD	Gasoline	CA	L2	California LEV-II LEV	CPRXV04.8PTD	large car	5	15	23	18	3	no
 PORSCHE Panamera Turbo S	4.8	8	Auto-7	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CPRXV04.8PTD	large car	5	15	23	18	3	no
 PORSCHE Panamera Turbo S	4.8	8	Auto-7	4WD	Gasoline	CA	L2	California LEV-II LEV	CPRXV04.8PTD	large car	5	15	23	18	3	no
-RAM 2500	5.7	8	Auto-6	4WD	CNG/Gasoline	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CCRXD05.78VY	pickup	1/1	N/A	N/A	N/A	N/A	no
-RAM 2500	5.7	8	Auto-6	4WD	CNG/Gasoline	CA	U2	California LEV-II ULEV	CCRXD05.78VY	pickup	2/2	N/A	N/A	N/A	N/A	no
+RAM 2500	5.7	8	Auto-6	4WD	CNG/Gasoline	FA	HDV1	HDV1 (Federal HD chassis Class 2b GVW 8501-10000)	CCRXD05.78VY	pickup	1	N/A	N/A	N/A	N/A	no
+RAM 2500	5.7	8	Auto-6	4WD	CNG/Gasoline	CA	U2	California LEV-II ULEV	CCRXD05.78VY	pickup	2	N/A	N/A	N/A	N/A	no
 ROLLS-ROYCE Ghost	6.6	12	SemiAuto-8	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CRRGV06.6N74	large car	5	13	20	15	1	no
 ROLLS-ROYCE Ghost	6.6	12	SemiAuto-8	2WD	Gasoline	CA	U2	California LEV-II ULEV	CRRGV06.6N74	large car	6	13	20	15	1	no
 ROLLS-ROYCE Ghost EWB	6.6	12	SemiAuto-8	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CRRGV06.6N74	large car	5	13	20	15	1	no
@@ -1891,12 +1891,12 @@ SAAB 9-3	2	4	Man-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSAXV02.0004	small ca
 SAAB 9-3	2	4	Man-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CSAXV02.0004	small car	5	20	30	24	5	no
 SAAB 9-3	2	4	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSAXV02.0004	small car	5	18	29	22	5	no
 SAAB 9-3	2	4	SemiAuto-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CSAXV02.0004	small car	5	18	29	22	5	no
-SAAB 9-3 Convertible	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6/6	15/20	23/33	18/25	6/6	yes
-SAAB 9-3 Convertible	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6/6	13/18	21/28	16/22	5/5	no
-SAAB 9-3 Sport Sedan	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6/6	15/20	23/33	18/25	6/6	yes
-SAAB 9-3 Sport Sedan	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6/6	14/19	20/29	17/23	5/5	no
-SAAB 9-3 Sportcombi	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	station wagon	6/6	15/20	23/33	18/25	6/6	yes
-SAAB 9-3 Sportcombi	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	station wagon	6/6	13/18	21/28	16/22	5/5	no
+SAAB 9-3 Convertible	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6	15/20	23/33	18/25	6	yes
+SAAB 9-3 Convertible	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6	13/18	21/28	16/22	5	no
+SAAB 9-3 Sport Sedan	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6	15/20	23/33	18/25	6	yes
+SAAB 9-3 Sport Sedan	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	small car	6	14/19	20/29	17/23	5	no
+SAAB 9-3 Sportcombi	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	station wagon	6	15/20	23/33	18/25	6	yes
+SAAB 9-3 Sportcombi	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	station wagon	6	13/18	21/28	16/22	5	no
 SAAB 9-3X Sportcombi	2	4	Man-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSAXV02.0004	station wagon	5	20	30	24	5	no
 SAAB 9-3X Sportcombi	2	4	Man-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CSAXV02.0004	station wagon	5	20	30	24	5	no
 SAAB 9-3X Sportcombi	2	4	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSAXV02.0004	station wagon	5	18	29	22	5	no
@@ -1905,8 +1905,8 @@ SAAB 9-4X	2.8	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CGMXT02.8161	
 SAAB 9-4X	2.8	6	SemiAuto-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CGMXT02.8161	SUV	5	15	22	18	3	no
 SAAB 9-4X	3	6	SemiAuto-6	4WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	17	23	19	3	no
 SAAB 9-4X	3	6	SemiAuto-6	2WD	Gasoline	FA	B4	Federal Tier 2 Bin 4	CGMXT03.0157	SUV	6	18	25	20	4	no
-SAAB 9-5	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	midsize car	6/6	15/20	23/33	18/25	6/6	yes
-SAAB 9-5	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	midsize car	6/6	13/18	21/28	16/22	5/5	no
+SAAB 9-5	2	4	Man-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	midsize car	6	15/20	23/33	18/25	6	yes
+SAAB 9-5	2	4	SemiAuto-6	2WD	Ethanol/Gas	FA	B4	Federal Tier 2 Bin 4	CSAXV02.0002	midsize car	6	13/18	21/28	16/22	5	no
 SAAB 9-5	2.8	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSAXV02.8162	midsize car	5	17	27	20	4	no
 SAAB 9-5	2.8	6	SemiAuto-6	4WD	Gasoline	CA	L2	California LEV-II LEV	CSAXV02.8162	midsize car	5	17	27	20	4	no
 SCION iQ	1.3	4	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXV01.3BEA	small car	5	36	37	37	8	yes
@@ -2029,8 +2029,8 @@ SUZUKI SX4 Sport	2	4	CVT	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSKXV2.395F1	sm
 SUZUKI SX4 Sport	2	4	CVT	2WD	Gasoline	CA	L2OP	California LEV-II LEV Optional	CSKXV2.395F1	small car	5	23	30	26	6	no
 SUZUKI SX4 Sport	2	4	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CSKXV2.395F1	small car	5	23	32	26	6	no
 SUZUKI SX4 Sport	2	4	Man-6	2WD	Gasoline	CA	L2OP	California LEV-II LEV Optional	CSKXV2.395F1	small car	5	23	32	26	6	no
-TESLA Model S	-1		Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CTSLV00.0L1S	large car	10	88	90	89	10	yes
-TESLA Model S	-1		Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CTSLV00.0L1S	large car	10	88	90	89	10	yes
+TESLA Model S	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CTSLV00.0L1S	large car	10	88	90	89	10	yes
+TESLA Model S	N/A	N/A	Auto-1	2WD	Electricity	CA	ZEV	California ZEV	CTSLV00.0L1S	large car	10	88	90	89	10	yes
 TOYOTA 4Runner	4	6	SemiAuto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT04.0AES	SUV	5	17	22	19	3	no
 TOYOTA 4Runner	4	6	SemiAuto-5	4WD	Gasoline	CA	L2	California LEV-II LEV	CTYXT04.0AES	SUV	5	17	22	19	3	no
 TOYOTA 4Runner	4	6	SemiAuto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT04.0AES	SUV	5	17	22	19	3	no
@@ -2073,8 +2073,8 @@ TOYOTA Matrix	2.4	4	SemiAuto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXV02.4
 TOYOTA Matrix	2.4	4	SemiAuto-5	2WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXV02.4BEB	station wagon	6	21	29	24	5	no
 TOYOTA Prius	1.8	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CTYXV01.8HC3	midsize car	7	51	48	50	10	yes
 TOYOTA Prius	1.8	4	CVT	2WD	Gasoline	CA	PZEV	California PZEV	CTYXV01.8HC3	midsize car	9	51	48	50	10	yes
-TOYOTA Prius Plug-in Hybrid	1.8	4	CVT	2WD	Electricity/Gasoline	FA	B3	Federal Tier 2 Bin 3	CTYXV01.8HCU	midsize car	10/7	90/51	102/49	95/50	10/10	yes
-TOYOTA Prius Plug-in Hybrid	1.8	4	CVT	2WD	Electricity/Gasoline	CA	PZEV	California PZEV	CTYXV01.8HCU	midsize car	10/9	90/51	102/49	95/50	10/10	yes
+TOYOTA Prius Plug-in Hybrid	1.8	4	CVT	2WD	Gasoline/Electricity	FA	B3	Federal Tier 2 Bin 3	CTYXV01.8HCU	midsize car	7	51/90	49/102	50/95	10	yes
+TOYOTA Prius Plug-in Hybrid	1.8	4	CVT	2WD	Gasoline/Electricity	CA	PZEV	California PZEV	CTYXV01.8HCU	midsize car	9	51/90	49/102	50/95	10	yes
 TOYOTA Prius c	1.5	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CTYXV01.5CC4	small car	7	53	46	50	10	yes
 TOYOTA Prius c	1.5	4	CVT	2WD	Gasoline	CA	S2	California LEV-II SULEV	CTYXV01.5CC4	small car	8	53	46	50	10	yes
 TOYOTA Prius v	1.8	4	CVT	2WD	Gasoline	FA	B3	Federal Tier 2 Bin 3	CTYXV01.8CCU	station wagon	7	44	40	42	9	yes
@@ -2087,12 +2087,12 @@ TOYOTA RAV4	3.5	6	Auto-5	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT03.5BEM	SU
 TOYOTA RAV4	3.5	6	Auto-5	4WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT03.5BEM	SUV	6	19	26	22	5	no
 TOYOTA RAV4	3.5	6	Auto-5	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT03.5BEM	SUV	5	19	27	22	5	no
 TOYOTA RAV4	3.5	6	Auto-5	2WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT03.5BEM	SUV	6	19	27	22	5	no
-TOYOTA RAV4 EV	-1		CVT	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CTYXV00.0DA9	SUV	10	78	74	76	10	yes
+TOYOTA RAV4 EV	N/A	N/A	CVT	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	CTYXV00.0DA9	SUV	10	78	74	76	10	yes
 TOYOTA Sequoia	5.7	8	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7BEY	SUV	5	13	17	14	1	no
 TOYOTA Sequoia	5.7	8	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT05.7BEY	SUV	6	13	17	14	1	no
 TOYOTA Sequoia	5.7	8	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7BEY	SUV	5	13	18	15	1	no
 TOYOTA Sequoia	5.7	8	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT05.7BEY	SUV	6	13	18	15	1	no
-TOYOTA Sequoia FFV	5.7	8	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7XE8	SUV	5/5	9/13	13/17	11/15	1/1	no
+TOYOTA Sequoia FFV	5.7	8	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7XE8	SUV	5	9/13	13/17	11/15	1	no
 TOYOTA Sienna	2.7	4	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT02.7BEM	minivan	5	19	24	21	4	no
 TOYOTA Sienna	2.7	4	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT02.7BEM	minivan	6	19	24	21	4	no
 TOYOTA Tacoma	2.7	4	Auto-4	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT02.7AEN	pickup	5	18	21	19	3	no
@@ -2119,7 +2119,7 @@ TOYOTA Tundra	5.7	8	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7
 TOYOTA Tundra	5.7	8	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT05.7BEW	pickup	6	13	17	14	1	no
 TOYOTA Tundra	5.7	8	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7BEW	pickup	5	14	18	15	1	no
 TOYOTA Tundra	5.7	8	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT05.7BEW	pickup	6	14	18	15	1	no
-TOYOTA Tundra FFV	5.7	8	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7XE8	pickup	5/5	9/13	13/18	11/15	1/1	no
+TOYOTA Tundra FFV	5.7	8	SemiAuto-6	4WD	Ethanol/Gas	FA	B5	Federal Tier 2 Bin 5	CTYXT05.7XE8	pickup	5	9/13	13/18	11/15	1	no
 TOYOTA Venza	2.7	4	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT02.7BEN	SUV	5	20	25	22	5	no
 TOYOTA Venza	2.7	4	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	CTYXT02.7BEN	SUV	6	20	25	22	5	no
 TOYOTA Venza	2.7	4	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CTYXT02.7BEN	SUV	5	21	27	23	5	no
@@ -2215,7 +2215,7 @@ VOLKSWAGEN Passat	2.5	5	SemiAuto-6	2WD	Gasoline	CA	PZEV	California PZEV	CVWXV02.
 VOLKSWAGEN Passat	2.5	5	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CVWXV02.5U35	midsize car	5	22	31	25	6	no
 VOLKSWAGEN Passat	3.6	6	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CVWXV03.6U41	midsize car	5	20	28	23	5	no
 VOLKSWAGEN Passat	3.6	6	SemiAuto-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CVWXV03.6U41	midsize car	6	20	28	23	5	no
-VOLKSWAGEN Routan	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6/6	12/17	18/25	14/20	4/4	no
+VOLKSWAGEN Routan	3.6	6	Auto-6	2WD	Ethanol/Gas	FC	B4	Federal Tier 2 Bin 4	CCRXJ03.6VPA	minivan	6	12/17	18/25	14/20	4	no
 VOLKSWAGEN Tiguan	2	4	Man-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CADXJ02.03UA	SUV	5	18	26	21	4	no
 VOLKSWAGEN Tiguan	2	4	Man-6	2WD	Gasoline	CA	U2	California LEV-II ULEV	CADXJ02.03UA	SUV	6	18	26	21	4	no
 VOLKSWAGEN Tiguan	2	4	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	CADXJ02.03UA	SUV	5	21	27	23	5	no

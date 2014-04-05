@@ -13,9 +13,9 @@ class ImportHelpers
         return csv
       end
 
-      # Turns out Aston Martin is the only make with 2 words right now
+      # List of makes in source files that run over multiple words
       def self.multiword_makes
-        return ['ASTON MARTIN']
+        return ['ASTON MARTIN', 'LAND ROVER', 'Azure Dynamics']
       end
 
       def self.is_multiword_make?(value)
@@ -37,7 +37,7 @@ class ImportHelpers
         end
 
         words = value.split(" ")
-        make = words[0..space_to_delimit].join(" ")
+        make = words[0..space_to_delimit].join(" ").upcase
         model = words[(space_to_delimit+1)..words.size].join(" ")
         return { :make => make, :model => model }
       end

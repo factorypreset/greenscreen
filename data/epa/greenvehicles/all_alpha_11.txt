@@ -2178,4 +2178,3 @@ VOLVO XC 90	4.4	8	SemiAuto-6	4WD	Gasoline	CA	U2	California LEV-II ULEV	BVVXT04.4
 VOLVO XC 90	3.2	6	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	BVVXJ03.2U2N	SUV	5	16	22	18	3	no
 VOLVO XC 90	3.2	6	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	BVVXJ03.2U2N	SUV	5	16	22	18	3	no
 VOLVO XC 90	4.4	8	SemiAuto-6	4WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	BVVXT04.4U2N	SUV	5	14	21	16	1	no
-=

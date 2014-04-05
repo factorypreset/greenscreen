@@ -37,4 +37,15 @@ describe VehicleModel do
     end
 
   end
+
+  describe "methods" do
+
+    it "should return the correct full name for a vehicle model" do
+      vehicle = create :vehicle_model, model: "FakeModel"
+      vehicle.vehicle_make = create :vehicle_make, make: "FAKEMAKE"
+      vehicle.save
+
+      vehicle.full_name.must_equal "FAKEMAKE FakeModel"
+    end
+  end
 end
