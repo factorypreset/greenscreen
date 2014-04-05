@@ -38,5 +38,6 @@ end
 
 group :development, :test do
   gem 'flexmock'
+  gem 'pry'
 end
 
