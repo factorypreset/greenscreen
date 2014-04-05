@@ -14,8 +14,8 @@ Installation
 After cloning the repository you should:
 
     bundle install
-    rake epa:import_all
-    rails s
+    bundle exec rake epa:import_all
+    bundle exec rails s
 
 TODO
 ----
