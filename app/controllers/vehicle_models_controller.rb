@@ -1,4 +1,4 @@
-class VehiclesController < ApplicationController
+class VehicleModelsController < ApplicationController
 
   respond_to :json
 

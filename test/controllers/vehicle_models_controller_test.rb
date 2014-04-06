@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'json'
 
-describe VehiclesController do
+describe VehicleModelsController do
 
   describe :index do
 
