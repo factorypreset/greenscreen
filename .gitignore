@@ -14,3 +14,10 @@
 /log/*.log
 /tmp
 *.swp
+
+# Ignore js deps, etc
+/app/assets/javascripts/greenscreen/dist/
+/app/assets/javascripts/greenscreen/node_modules/
+/app/assets/javascripts/greenscreen/vendor/bower/
+/app/assets/javascripts/greenscreen/test/coverage/
+npm-debug.log
