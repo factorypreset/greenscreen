@@ -21,9 +21,9 @@ After cloning the repository you should:
 Tests
 -----
 
-To run tests
+To run all tests
 
-    bundle exec rake test
+    bundle exec rake test:all
 
 TODO
 ----

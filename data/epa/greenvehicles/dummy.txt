@@ -1,0 +1,6 @@
+Model	Displ	Cyl	Trans	Drive	Fuel	Sales Area	Stnd	Stnd Description	Underhood ID	Veh Class	Air Pollution Score	City MPG	Hwy MPG	Cmb MPG	Greenhouse Gas Score	SmartWay	Comb CO2
+ASTON MARTIN DB9	5.9	12	SemiAuto-6	2WD	Gasoline	FA	B5	Federal Tier 2 Bin 5	DASXV05.9VH1	small car	5	13	19	15	3	no	588
+ASTON MARTIN DB9	5.9	12	SemiAuto-6	2WD	Gasoline	CA	L2	California LEV-II LEV	DASXV05.9VH1	small car	5	13	19	15	3	no	588
+TESLA Model S	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	DTSLV00.0L1S	large car	10	88	90	89	10	yes	0
+TESLA Model S	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	DTSLV00.0L1S	large car	10	93	96	94	10	yes	0
+TESLA Model S	N/A	N/A	Auto-1	2WD	Electricity	FA	B1	Federal Tier 2 Bin 1	DTSLV00.0L1S	large car	10	94	97	95	10	yes	0
