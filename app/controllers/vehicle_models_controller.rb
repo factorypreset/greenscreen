@@ -2,13 +2,13 @@ class VehicleModelsController < ApplicationController
 
   respond_to :json
 
-  # GET /vehicles.json
+  # GET /vehicle_models.json
   def index
     @vehicle_models = find_vehicle_models
     respond_with(@vehicle_models)
   end
 
-  # GET /vehicles/:id.json
+  # GET /vehicle_models/:id.json
   def show
     @vehicle_model = VehicleModel.find(params[:id])
     respond_with(@vehicle_model)
