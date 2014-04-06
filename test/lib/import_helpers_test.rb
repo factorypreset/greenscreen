@@ -10,6 +10,13 @@ describe ImportHelpers::EPA::Vehicles do
     @csv = @subject.csv_load('dummy.txt')
   end
 
+  after :each do
+    # remove dummy content
+    VehicleClass.delete_all
+    VehicleMake.delete_all
+    VehicleModel.delete_all
+  end
+
   it "can load a csv file" do
     @csv.count.must_equal 5
     @csv.first["Model"].must_equal "ASTON MARTIN DB9"

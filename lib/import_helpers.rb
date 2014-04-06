@@ -9,20 +9,19 @@ class ImportHelpers
 
       def self.csv_load(file, col_sep="\t")
         csv_text = File.read(IMPORT_DIR + file)
-        csv = CSV.parse(csv_text, :headers => true, :col_sep => "\t")
-        return csv
+        CSV.parse(csv_text, :headers => true, :col_sep => "\t")
       end
 
       # List of makes in source files that run over multiple words
       def self.multiword_makes
-        return ['ASTON MARTIN', 'LAND ROVER', 'Azure Dynamics']
+        ['ASTON MARTIN', 'LAND ROVER', 'Azure Dynamics']
       end
 
       def self.is_multiword_make?(value)
         multiword_makes.each do |m|
           return true if value.include?(m)
         end
-        return false
+        false
       end
 
       def self.parse_make_and_model(value)
@@ -39,7 +38,7 @@ class ImportHelpers
         words = value.split(" ")
         make = words[0..space_to_delimit].join(" ").upcase
         model = words[(space_to_delimit+1)..words.size].join(" ")
-        return { :make => make, :model => model }
+        { :make => make, :model => model }
       end
 
       # EPA provides booleans in form "yes" or "no"
@@ -48,7 +47,7 @@ class ImportHelpers
         return false if value == "no"
 
         # a slightly unsatisfactory fallback here
-        return !!value
+        !!value
       end
 
       def self.map_vehicle_make_fields(row)
@@ -57,7 +56,6 @@ class ImportHelpers
           :make => make_and_model[:make],
           :source => "EPA"
         }
-        return mapping
       end
 
       def self.map_vehicle_class_fields(row)
@@ -65,7 +63,6 @@ class ImportHelpers
           :vehicle_class => row["Veh Class"],
           :source => "EPA"
         }
-        return mapping
       end
 
       def self.map_vehicle_model_fields(row, model_year)
@@ -95,7 +92,6 @@ class ImportHelpers
           :smart_way => to_boolean(row["SmartWay"]),
           :source => "EPA"
         }
-        return mapping
       end
 
     end

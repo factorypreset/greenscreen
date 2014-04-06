@@ -1,5 +1,6 @@
 Greenscreen::Application.routes.draw do
   resources :vehicles
+  resources :vehicle_makes
 
 
   # The priority is based upon order of creation:

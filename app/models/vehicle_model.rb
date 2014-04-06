@@ -19,7 +19,7 @@ class VehicleModel < ActiveRecord::Base
   end
 
   def full_name
-    return "#{vehicle_make.make} #{model}"
+    "#{vehicle_make.make} #{model}"
   end
 
 end
