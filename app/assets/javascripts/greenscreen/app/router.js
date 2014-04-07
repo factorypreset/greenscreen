@@ -22,10 +22,19 @@ define(function(require, exports, module) {
 
     index: function() {
       console.log("Welcome to your / route.");
+      this.reset();
     },
 
     vehicleModel: function() {
       console.log("In teh vehicle model route.");
+    },
+
+    reset: function() {
+      if (this.vehicleModels.length) {
+        this.vehicleModels.reset();
+      }
+
+      app.active = false;
     }
   });
 });
