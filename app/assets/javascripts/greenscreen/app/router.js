@@ -3,20 +3,29 @@ define(function(require, exports, module) {
 
   // External dependencies.
   var Backbone = require("backbone");
+  var VehicleModel = require("components/vehicle_model/index");
+  // var VehicleMake = require("components/vehicle_make/index");
 
   // Defining the application router.
   module.exports = Backbone.Router.extend({
+
+    initialize: function() {
+      this.vehicleModels = VehicleModel.Collection();
+      // this.vehicleMakes = VehicleMake.Collection();
+    },
+
+
     routes: {
       "": "index",
-      "vehicles": "vehicles"
+      "vehicle-model": "vehicleModel"
     },
 
     index: function() {
       console.log("Welcome to your / route.");
     },
 
-    vehicles: function() {
-      console.log("Teh vehicles route.");
+    vehicleModel: function() {
+      console.log("In teh vehicle model route.");
     }
   });
 });

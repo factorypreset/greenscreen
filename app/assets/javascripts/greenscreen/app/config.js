@@ -6,6 +6,9 @@ require.config({
     "almond": "../vendor/bower/almond/almond",
     "underscore": "../vendor/bower/lodash/dist/lodash.underscore",
     "jquery": "../vendor/bower/jquery/dist/jquery",
-    "backbone": "../vendor/bower/backbone/backbone"
+    "backbone": "../vendor/bower/backbone/backbone",
+    "ldsh": "../vendor/bower/lodash-template-loader/loader",
+    "lodash": "../vendor/bower/lodash/dist/lodash",
+    "layoutmanager": "../vendor/bower/layoutmanager/backbone.layoutmanager"
   }
 });
