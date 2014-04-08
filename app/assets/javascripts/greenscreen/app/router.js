@@ -3,6 +3,11 @@ define(function(require, exports, module) {
 
   // External dependencies.
   var Backbone = require("backbone");
+
+  // Load the app
+  var app = require("app");
+
+  // Greenscreen components
   var VehicleModel = require("components/vehicle_model/index");
   // var VehicleMake = require("components/vehicle_make/index");
 
@@ -10,8 +15,20 @@ define(function(require, exports, module) {
   module.exports = Backbone.Router.extend({
 
     initialize: function() {
-      this.vehicleModels = VehicleModel.Collection();
-      // this.vehicleMakes = VehicleMake.Collection();
+      this.vehicleModels = new VehicleModel.Collection();
+
+      // configure layout and views
+      var Layout = Backbone.Layout.extend({
+        el: "main",
+        template: require("ldsh!./templates/main"),
+        views: {
+          ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels})
+        }
+      });
+
+      // render page
+      new Layout().render();
+
     },
 
 
@@ -21,12 +38,12 @@ define(function(require, exports, module) {
     },
 
     index: function() {
-      console.log("Welcome to your / route.");
+      this.vehicleModels.fetch();
       this.reset();
     },
 
     vehicleModel: function() {
-      console.log("In teh vehicle model route.");
+      // vehicleModel route tbc....
     },
 
     reset: function() {
