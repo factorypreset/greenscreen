@@ -4,9 +4,9 @@ define(function(require, exports, module) {
   var app = require("app");
 
   var Collection = Backbone.Collection.extend({
+    // model: needed? unsure.
     url: function() {
-      var uri = app.api + "vehicle_models.json?make=Tesla";
-      console.log(uri);
+      var uri = app.api + "vehicle_models.json";
       return uri;
     }
   });

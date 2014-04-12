@@ -17,10 +17,7 @@ define(function(require, exports, module) {
     },
 
     changeVehicleModel: function(ev) {
-      var model = this.model;
-      var year = model.get("model_year");
-
-      app.router.go("vehicle-model", vehicleModel, "year", year);
+      app.router.navigate("vehicle-model/", this.model.id);
     },
 
     initialize: function() {

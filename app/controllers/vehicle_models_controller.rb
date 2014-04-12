@@ -21,7 +21,8 @@ class VehicleModelsController < ApplicationController
   end
 
   def find_vehicle_models
-    VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make])
+    # VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make])
+    VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).limit(2000)
   end
 
 end
