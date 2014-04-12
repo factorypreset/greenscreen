@@ -34,7 +34,7 @@ Update and build front-end components:
     cd vendor/assets/javascripts/greenscreen/
     sudo npm install -g grunt-cli bower
     sudo npm install
-    bower install
+    bower cache clean && bower install
     grunt
 
 
