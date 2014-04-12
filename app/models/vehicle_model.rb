@@ -18,6 +18,10 @@ class VehicleModel < ActiveRecord::Base
     end
   end
 
+  def self.dedupe_name
+    select("DISTINCT model")
+  end
+
   def full_name
     "#{vehicle_make.make} #{model}"
   end

@@ -22,7 +22,7 @@ class VehicleModelsController < ApplicationController
 
   def find_vehicle_models
     # VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make])
-    VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).limit(2000)
+    VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).dedupe_name.order("vehicle_makes.make, model").limit(2000)
   end
 
 end
