@@ -12,14 +12,15 @@ class VehicleModel < ActiveRecord::Base
 
   def self.by_make(make)
     if make.blank?
-      all
+      all.order("model, model_year")
     else
-      joins(:vehicle_make).where("vehicle_makes.make = ?", make.upcase)
+      joins(:vehicle_make).where("vehicle_makes.make = ?", make.upcase).order("vehicle_makes.make, model, model_year")
     end
   end
 
   def self.dedupe_name
-    select("DISTINCT model")
+    #select(:model).distinct
+    group(:model)
   end
 
   def full_name

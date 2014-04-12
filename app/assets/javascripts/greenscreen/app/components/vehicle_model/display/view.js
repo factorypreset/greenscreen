@@ -6,19 +6,10 @@ define(function(require, exports, module) {
   var Layout = Backbone.Layout.extend({
     template: require("ldsh!./template"),
 
-    tagName: "li",
+    tagName: "div",
 
     serialize: function() {
       return { model: this.model };
-    },
-
-    events: {
-      click: "changeVehicleModel"
-    },
-
-    changeVehicleModel: function(ev) {
-      // debugger;
-      app.router.navigate("vehicle-model/", this.model.id, {trigger: true});
     },
 
     initialize: function() {

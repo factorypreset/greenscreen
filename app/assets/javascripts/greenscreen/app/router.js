@@ -16,13 +16,15 @@ define(function(require, exports, module) {
 
     initialize: function() {
       this.vehicleModels = new VehicleModel.Collection();
+      this.vehicleModel = new VehicleModel.Model();
 
       // configure layout and views
       var Layout = Backbone.Layout.extend({
         el: "main",
         template: require("ldsh!./templates/main"),
         views: {
-          ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels})
+          ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels}),
+          ".vehicle-model": new VehicleModel.Views.Display({ model: this.vehicleModel})
         }
       });
 
@@ -39,7 +41,7 @@ define(function(require, exports, module) {
     },
 
     index: function() {
-      console.log("index route");
+      console.log("index routese");
       this.vehicleModels.fetch();
       this.reset();
     },
@@ -51,8 +53,11 @@ define(function(require, exports, module) {
       this.reset();
     },
 
-    vehicleModel: function() {
+    vehicleModel: function(id) {
       console.log("vehicle-model route!!!");
+      this.vehicleModel.id = id;
+      this.vehicleModel.fetch();
+      this.reset();
       // vehicleModel route tbc....
     },
 
