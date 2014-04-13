@@ -37,28 +37,23 @@ define(function(require, exports, module) {
     routes: {
       "": "index",
       "vehicles-by-make/:make": "vehiclesByMake",
-      "vehicle-model/:id": "vehicleModel"
+      "model/:id": "vehicleModel"
     },
 
     index: function() {
-      console.log("index routese");
       this.vehicleModels.fetch();
       this.reset();
     },
 
     vehiclesByMake: function(make) {
-      console.log("vehicles-by-make route");
-      console.log("called vehiclesByMake with", make);
       this.vehicleModels.fetch({ data: { make: make } });
       this.reset();
     },
 
     vehicleModel: function(id) {
-      console.log("vehicle-model route!!!");
       this.vehicleModel.id = id;
       this.vehicleModel.fetch();
       this.reset();
-      // vehicleModel route tbc....
     },
 
     reset: function() {

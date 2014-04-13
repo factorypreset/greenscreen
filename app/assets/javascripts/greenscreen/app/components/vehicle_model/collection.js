@@ -6,7 +6,7 @@ define(function(require, exports, module) {
   var Collection = Backbone.Collection.extend({
     // model: needed? unsure.
     url: function() {
-      var uri = app.api + "vehicle_models.json";
+      var uri = app.api + "vehicle-models.json";
       return uri;
     }
   });

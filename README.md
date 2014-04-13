@@ -47,16 +47,16 @@ Start the server:
 
 JSON feeds will now be available at:
 
- * http://localhost:3000/vehicle_makes.json
- * http://localhost:3000/vehicle_models.json
+ * http://localhost:3000/vehicle-makes.json
+ * http://localhost:3000/vehicle-models.json
 
-vehicle_models.json responds to 'year' and 'make' filters, e.g.
+vehicle-models.json responds to 'year' and 'make' filters, e.g.
 
- * http://localhost:3000/vehicle_models.json?year=2013&make=Tesla
+ * http://localhost:3000/vehicle-models.json?year=2013&make=Tesla
 
 The app interacting with these feeds will be available at:
 
- * http://localhost:3000/vehicles.html
+ * http://localhost:3000/vehicles-models
 
 
 Tests

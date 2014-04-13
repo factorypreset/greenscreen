@@ -5,7 +5,7 @@ define(function(require, exports, module) {
 
   var Model = Backbone.Model.extend({
     url: function() {
-      return app.api + 'vehicle_models/' + this.id + ".json";
+      return app.api + 'vehicle-models/' + this.id + ".json";
     }
   });
 

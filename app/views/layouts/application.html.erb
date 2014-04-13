@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Greenscreen</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
+  <!-- backbone content container -->
+  <main role="main" id="main"></main>
 
-<%= yield %>
+  <!-- rails view content -->
+  <div id="static-content">
+  <%= yield %>
+  </div>
 
+  <!-- require app js -->
+  <script data-main="/assets/greenscreen/app/main" src="/assets/greenscreen/vendor/bower/requirejs/require.js"></script>
 </body>
 </html>

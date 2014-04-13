@@ -17,8 +17,8 @@ define(function(require, exports, module) {
     },
 
     changeVehicleModel: function(ev) {
-      // debugger;
-      app.router.navigate("vehicle-model/", this.model.id, {trigger: true});
+      var nextPage = "model/" + this.model.id;
+      app.router.navigate(nextPage, {trigger: true});
     },
 
     initialize: function() {

@@ -1,17 +1,22 @@
 class VehicleModelsController < ApplicationController
 
-  respond_to :json
-
   # GET /vehicle_models.json
   def index
     @vehicle_models = find_vehicle_models
-    respond_with(@vehicle_models)
+    respond_to do |format|
+      format.json { render json: @vehicle_models }
+      format.any
+    end
   end
 
   # GET /vehicle_models/:id.json
+  # GET /vehicle_models/:id
   def show
     @vehicle_model = VehicleModel.find(params[:id])
-    respond_with(@vehicle_model)
+    respond_to do |format|
+      format.json { render json: @vehicle_model }
+      format.any
+    end
   end
 
   private
