@@ -51,9 +51,14 @@ define(function(require, exports, module) {
     },
 
     vehicleModel: function(id) {
+      // fetch all vehicle models if not already loaded
+      if (this.vehicleModels.length == 0) {
+        this.vehicleModels.fetch();
+      }
+
+      // get details for this one model
       this.vehicleModel.id = id;
       this.vehicleModel.fetch();
-      this.reset();
     },
 
     reset: function() {
