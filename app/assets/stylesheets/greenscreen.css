@@ -1,3 +1,7 @@
 div.vehicle-makes .panel .panel-body ul.vehicle-make-list li {
-  text-transform: capitalize;
+  text-transform: lowercase;
+}
+
+li.emphasis {
+  font-weight: bold;
 }

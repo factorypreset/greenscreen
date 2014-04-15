@@ -17,12 +17,18 @@ define(function(require, exports, module) {
     },
 
     changeVehicleMake: function(ev) {
+      this.emphasize();
       var nextPage = "vehicle-models/by-make/" + this.model.get("make");
       app.router.navigate(nextPage, {trigger: true});
     },
 
     initialize: function() {
       this.listenTo(this.model, "change", this.render);
+    },
+
+    emphasize: function() {
+      $(this.el.parentNode).children(".emphasis").removeClass("emphasis");
+      this.$el.addClass("emphasis");
     }
   });
 
