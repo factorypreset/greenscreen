@@ -2,7 +2,7 @@
   <div class="panel panel-success">
     <% if (typeof model.id != 'undefined') { %>
     <div class="panel-heading">
-      <h3>Vehicle Details: <%= model.get("model") %></h3>
+      <h3 class="panel-title">Vehicle Details: <%= model.get("model") %></h3>
     </div>
     <div class="panel-body">
       <ul class="vehicle-model">
@@ -30,7 +30,7 @@
     </div>
     <% } else { %>
     <div class="panel-heading">
-      <h3>Vehicle Details</h3>
+      <h3 class="panel-title">Vehicle Details</h3>
     </div>
     <% } %>
   </div>

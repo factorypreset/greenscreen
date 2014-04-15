@@ -1,17 +1,22 @@
 class VehicleMakesController < ApplicationController
 
-  respond_to :json
-
   # GET /vehicle_makes.json
   def index
-    @vehicle_makes = VehicleMake.all
-    respond_with(@vehicle_makes)
+    @vehicle_makes = VehicleMake.all.order("make")
+    respond_to do |format|
+      format.json { render json: @vehicle_makes }
+      format.any
+    end 
   end
 
   # GET /vehicle_makes/:id.json
+  # GET /vehicle_makes/:id
   def show
     @vehicle_make = VehicleMake.find(params[:id])
-    respond_with(@vehicle_make)
+    respond_to do |format|
+      format.json { render json: @vehicle_make }
+      format.any
+    end
   end
 
 end

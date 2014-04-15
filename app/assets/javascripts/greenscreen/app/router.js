@@ -8,13 +8,15 @@ define(function(require, exports, module) {
   var app = require("app");
 
   // Greenscreen components
+  var VehicleMake = require("components/vehicle_make/index");
   var VehicleModel = require("components/vehicle_model/index");
-  // var VehicleMake = require("components/vehicle_make/index");
 
   // Defining the application router.
   module.exports = Backbone.Router.extend({
 
     initialize: function() {
+      this.vehicleMakes = new VehicleMake.Collection();
+      this.vehicleMake = new VehicleMake.Model();
       this.vehicleModels = new VehicleModel.Collection();
       this.vehicleModel = new VehicleModel.Model();
 
@@ -23,7 +25,8 @@ define(function(require, exports, module) {
         el: "main",
         template: require("ldsh!./templates/main"),
         views: {
-          ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels}),
+          ".vehicle-makes": new VehicleMake.Views.List({ collection: this.vehicleMakes }),
+          ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels }),
           ".vehicle-model": new VehicleModel.Views.Display({ model: this.vehicleModel})
         }
       });
@@ -36,17 +39,36 @@ define(function(require, exports, module) {
 
     routes: {
       "": "index",
-      "vehicles-by-make/:make": "vehiclesByMake",
-      "model/:id": "vehicleModel"
+      "vehicle-makes": "vehicleMakeList",
+      "vehicle-makes/make/:id": "vehicleMake",
+      "vehicle-models": "vehicleModelList",
+      "vehicle-models/model/:id": "vehicleModel",
+      "vehicle-models/by-make/:make": "vehiclesByMake"
     },
 
     index: function() {
-      this.vehicleModels.fetch();
+      this.vehicleMakes.fetch();
       this.reset();
     },
 
-    vehiclesByMake: function(make) {
-      this.vehicleModels.fetch({ data: { make: make } });
+    vehicleMakeList: function() {
+      this.vehicleMakes.fetch();
+      // this.reset();
+    },
+
+    vehicleMake: function(id) {
+      // fetch all vehicle makes if not already loaded
+      if (this.vehicleMakes.length == 0) {
+        this.vehicleMakes.fetch();
+      }
+
+      // get details for this one model
+      this.vehicleModel.id = id;
+      this.vehicleModel.fetch();
+    },
+
+    vehicleModelList: function() {
+      this.vehicleModels.fetch();
       this.reset();
     },
 
@@ -59,6 +81,11 @@ define(function(require, exports, module) {
       // get details for this one model
       this.vehicleModel.id = id;
       this.vehicleModel.fetch();
+    },
+
+    vehiclesByMake: function(make) {
+      this.vehicleModels.fetch({ data: { make: make } });
+      this.reset();
     },
 
     reset: function() {

@@ -13,11 +13,11 @@ define(function(require, exports, module) {
     },
 
     events: {
-      click: "changeVehicleModel"
+      click: "changeVehicleMake"
     },
 
-    changeVehicleModel: function(ev) {
-      var nextPage = "vehicle-models/model/" + this.model.id;
+    changeVehicleMake: function(ev) {
+      var nextPage = "vehicle-models/by-make/" + this.model.get("make");
       app.router.navigate(nextPage, {trigger: true});
     },
 
