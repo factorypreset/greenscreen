@@ -10,6 +10,14 @@ class VehicleModel < ActiveRecord::Base
     end
   end
 
+  def self.by_vehicle_make_id(make_id)
+    if make_id.blank?
+      all.order("model, model_year")
+    else
+      where("vehicle_make_id = ?", make_id)
+    end
+  end
+
   def self.by_make(make)
     if make.blank?
       all.order("model, model_year")

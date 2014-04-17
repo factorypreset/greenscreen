@@ -20,11 +20,11 @@ describe VehicleModel do
     end
 
     it "can find all the vehicles" do
-      VehicleModel.all.count.must_equal 2
+      VehicleModel.all.length.must_equal 2
     end
 
     it "can find vehicles made in a given year" do
-      VehicleModel.by_year('2012').count.must_equal 1
+      VehicleModel.by_year('2012').length.must_equal 1
     end
 
     it "can find vehicles made by a given manufacturer" do
@@ -33,14 +33,14 @@ describe VehicleModel do
       @v1.save
       @v2.save
 
-      VehicleModel.by_make('Honda').count.must_equal 1
+      VehicleModel.by_make('Honda').length.must_equal 1
     end
 
     it "can exclude duplicate model names" do
       @v2.model = @v1.model
       @v2.save
 
-      VehicleModel.dedupe_name.count.must_equal 1
+      VehicleModel.dedupe_name.length.must_equal 1
     end
 
     it "can exclude duplicates of the same make and model" do
@@ -58,10 +58,10 @@ describe VehicleModel do
       @v4.save
 
       # check test data is set up correctly
-      VehicleModel.by_make('Honda').count.must_equal 2
+      VehicleModel.by_make('Honda').length.must_equal 2
 
       # validate chaining by_make and dedupe_name scopes
-      VehicleModel.by_make('Honda').dedupe_name.count.must_equal 1
+      VehicleModel.by_make('Honda').dedupe_name.length.must_equal 1
     end
 
   end

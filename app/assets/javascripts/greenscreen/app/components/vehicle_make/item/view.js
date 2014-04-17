@@ -18,8 +18,8 @@ define(function(require, exports, module) {
 
     changeVehicleMake: function(ev) {
       this.emphasize();
-      var nextPage = "vehicle-models/by-make/" + this.model.get("make");
-      app.router.navigate(nextPage, {trigger: true});
+      var nextUri = "vehicle-makes/" + this.model.id;
+      app.router.navigate(nextUri, {trigger: true});
     },
 
     initialize: function() {

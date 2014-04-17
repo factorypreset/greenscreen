@@ -40,10 +40,9 @@ define(function(require, exports, module) {
     routes: {
       "": "index",
       "vehicle-makes": "vehicleMakeList",
-      "vehicle-makes/make/:id": "vehicleMake",
-      "vehicle-models": "vehicleModelList",
-      "vehicle-models/model/:id": "vehicleModel",
-      "vehicle-models/by-make/:make": "vehiclesByMake"
+      "vehicle-makes/:vehicleMakeId": "vehicleMake",
+      "vehicle-makes/:vehicleMakeId/vehicle-models": "vehicleModelList",
+      "vehicle-makes/:vehicleMakeId/vehicle-models/:vehicleModelId": "vehicleModel"
     },
 
     index: function() {
@@ -53,44 +52,59 @@ define(function(require, exports, module) {
 
     vehicleMakeList: function() {
       this.vehicleMakes.fetch();
-      // this.reset();
     },
 
-    vehicleMake: function(id) {
+    vehicleMake: function(vehicleMakeId) {
       // fetch all vehicle makes if not already loaded
       if (this.vehicleMakes.length == 0) {
-        this.vehicleMakes.fetch();
+        this.vehicleMakes.fetch({ data: { id: vehicleMakeId } });
       }
 
-      // get details for this one model
-      this.vehicleModel.id = id;
-      this.vehicleModel.fetch();
+      // get all vehicle models for this make
+      this.vehicleModels.vehicleMakeId = vehicleMakeId;
+      this.vehicleModels.fetch();
+
+      // clear out model details
+      this.vehicleModel.clear();
     },
 
-    vehicleModelList: function() {
+    vehicleModelList: function(vehicleMakeId) {
+      // get all the models for this make
+      this.vehicleModels.vehicleMakeId = vehicleMakeId;
       this.vehicleModels.fetch();
       this.reset();
     },
 
-    vehicleModel: function(id) {
-      // fetch all vehicle models if not already loaded
+    vehicleModel: function(vehicleMakeId, vehicleModelId) {
+      // fetch all vehicle makes if not already loaded
+      if (this.vehicleMakes.length == 0) {
+         this.vehicleMakes.fetch();
+      }
+
+      // fetch all vehicle models for the given make
+      // (if not already loaded)
       if (this.vehicleModels.length == 0) {
+        this.vehicleModels.vehicleMakeId = vehicleMakeId;
         this.vehicleModels.fetch();
       }
 
       // get details for this one model
-      this.vehicleModel.id = id;
+      this.vehicleModel.id = vehicleModelId;
+      this.vehicleModel.vehicleMakeId = vehicleMakeId;
       this.vehicleModel.fetch();
-    },
-
-    vehiclesByMake: function(make) {
-      this.vehicleModels.fetch({ data: { make: make } });
-      this.reset();
     },
 
     reset: function() {
       if (this.vehicleModels.length) {
         this.vehicleModels.reset();
+      }
+
+      if (this.vehicleModel.length) {
+        this.vehicleModel.reset();
+      }
+
+      if (this.vehicleMakes.length) {
+        this.vehicleMakes.reset();
       }
 
       app.active = false;

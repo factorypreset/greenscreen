@@ -18,8 +18,9 @@ define(function(require, exports, module) {
 
     changeVehicleModel: function(ev) {
       this.emphasize();
-      var nextPage = "vehicle-models/model/" + this.model.id;
-      app.router.navigate(nextPage, {trigger: true});
+      var vehicleMakeId = this.model.get('vehicle_make_id');
+      var nextUri = "vehicle-makes/" + vehicleMakeId + "/vehicle-models/" + this.model.id;
+      app.router.navigate(nextUri, {trigger: true});
     },
 
     initialize: function() {

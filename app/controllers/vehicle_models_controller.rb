@@ -1,7 +1,8 @@
 class VehicleModelsController < ApplicationController
 
-  # GET /vehicle_models.json
+  # GET /vehicle-makes/:vehicle_make_id/vehicle-models.json
   def index
+    @vehicle_make = VehicleMake.find(vehicle_params[:vehicle_make_id])
     @vehicle_models = find_vehicle_models
     respond_to do |format|
       format.json { render json: @vehicle_models }
@@ -9,8 +10,7 @@ class VehicleModelsController < ApplicationController
     end
   end
 
-  # GET /vehicle_models/:id.json
-  # GET /vehicle_models/:id
+  # GET /vehicle-makes/:vehicle_make_id/vehicle-models/:id.json
   def show
     @vehicle_model = VehicleModel.find(params[:id])
     respond_to do |format|
@@ -22,14 +22,16 @@ class VehicleModelsController < ApplicationController
   private
 
   def vehicle_params
-    params.permit(:year, :make)
+    params.permit(:year, :make, :vehicle_make_id)
   end
 
   def find_vehicle_models
-    # VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make])
-    #VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).dedupe_name.order("vehicle_makes.make, model").limit(2000)
-    VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).dedupe_name.limit(2000)
-    #VehicleModel.by_year(vehicle_params[:year]).by_make(vehicle_params[:make]).limit(2000)
+    VehicleModel
+      .by_vehicle_make_id(vehicle_params[:vehicle_make_id])
+      .by_year(vehicle_params[:year])
+      .by_make(vehicle_params[:make])
+      .dedupe_name
+      .limit(2000)
   end
 
 end
