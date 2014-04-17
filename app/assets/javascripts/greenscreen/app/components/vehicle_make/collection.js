@@ -2,9 +2,12 @@ define(function(require, exports, module) {
   "use strict";
 
   var app = require("app");
+  var VehicleModel = require("./model");
 
   var Collection = Backbone.Collection.extend({
-    // model: needed? unsure.
+
+    model: VehicleModel,
+
     url: function() {
       var uri = app.api + "vehicle-makes.json";
       return uri;

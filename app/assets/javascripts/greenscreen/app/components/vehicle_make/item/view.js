@@ -23,6 +23,9 @@ define(function(require, exports, module) {
     },
 
     initialize: function() {
+      if (this.model.selected) {
+        this.emphasize();
+      }
       this.listenTo(this.model, "change", this.render);
     },
 

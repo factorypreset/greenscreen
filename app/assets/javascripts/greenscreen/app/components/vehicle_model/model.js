@@ -4,8 +4,17 @@ define(function(require, exports, module) {
   var app = require("app");
 
   var Model = Backbone.Model.extend({
+
+    initialize: function() {
+      this.selected = false;
+    },
+
     url: function() {
       return app.api + 'vehicle-makes/' + this.vehicleMakeId + '/vehicle-models/' + this.id + ".json";
+    },
+
+    select: function() {
+      this.selected = true;
     }
   });
 

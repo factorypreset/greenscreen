@@ -57,7 +57,12 @@ define(function(require, exports, module) {
     vehicleMake: function(vehicleMakeId) {
       // fetch all vehicle makes if not already loaded
       if (this.vehicleMakes.length == 0) {
-        this.vehicleMakes.fetch({ data: { id: vehicleMakeId } });
+        this.vehicleMakes.fetch({
+          success: function(results) {
+            var selectedItem = results.get(vehicleMakeId);
+            selectedItem.select();
+          }
+        });
       }
 
       // get all vehicle models for this make
@@ -78,14 +83,24 @@ define(function(require, exports, module) {
     vehicleModel: function(vehicleMakeId, vehicleModelId) {
       // fetch all vehicle makes if not already loaded
       if (this.vehicleMakes.length == 0) {
-         this.vehicleMakes.fetch();
+        this.vehicleMakes.fetch({
+          success: function(results) {
+            var selectedItem = results.get(vehicleMakeId);
+            selectedItem.select();
+          }
+        });
       }
 
       // fetch all vehicle models for the given make
       // (if not already loaded)
       if (this.vehicleModels.length == 0) {
         this.vehicleModels.vehicleMakeId = vehicleMakeId;
-        this.vehicleModels.fetch();
+        this.vehicleModels.fetch({
+          success: function(results) {
+            var selectedItem = results.get(vehicleModelId);
+            selectedItem.select();
+          }
+        });
       }
 
       // get details for this one model
