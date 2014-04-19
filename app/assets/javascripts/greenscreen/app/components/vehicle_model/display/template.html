@@ -1,31 +1,66 @@
 <div class="col-sm-4">
-  <div class="panel panel-success">
+  <div class="panel <% if (model.get('smart_way')) { %>panel-success<% } else { %>panel-default<% } %>">
     <% if (typeof model.id != 'undefined') { %>
     <div class="panel-heading">
-      <h3 class="panel-title">Vehicle Details: <%= model.get("model") %></h3>
+      <h3 class="panel-title"><%= model.get("model") %> (<%= model.get("model_year") %>)<% if (model.get('smart_way')) { %> - *Smart Way<% } %></h3>
     </div>
     <div class="panel-body">
-      <ul class="vehicle-model">
-        <li>ID: <%= model.id %></li>
-        <li>Engine Volume: <%= model.get("engine_volume") %></li>
-        <li>Cylinders: <%= model.get("cylinders") %></li>
-        <li>Transmission: <%= model.get("transmission") %></li>
+      <h4>Vehicle Summary</h4>
+      <ul class="vehicle-summary">
         <li>Drive: <%= model.get("drive") %></li>
         <li>Fuel: <%= model.get("fuel") %></li>
-        <li>Sales Area: <%= model.get("sales_area") %></li>
-        <li>Stnd: <%= model.get("stnd") %></li>
-        <li>Description: <%= model.get("description") %></li>
-        <li>Underhood ID: <%= model.get("underhood_id") %></li>
-        <li>Air Pollution Score: <%= model.get("air_pollution_score") %></li>
-        <li>City MPG: <%= model.get("city_mpg") %></li>
-        <li>Highway MPG: <%= model.get("hwy_mpg") %></li>
-        <li>Combined MPG: <%= model.get("combined_mpg") %></li>
-        <li>Greenhouse Gas Score: <%= model.get("greenhouse_gas_score") %></li>
-        <li>Smart Way: <%= model.get("smart_way") %></li>
-        <li>Make ID: <%= model.get("vehicle_make_id") %></li>
-        <li>Source: <%= model.get("source") %></li>
-        <li>Vehicle class ID: <%= model.get("vehicle_class_id") %></li>
-        <li>Model Year: <%= model.get("model_year") %></li>
+        <% if (model.get("smart_way")) { %>
+          <li>Rated 'Smart Way' by the US EPA</li>
+        <% } %>
+      </ul>
+
+      <h4>Environmental Data</h4>
+      <ul class="vehicle-model">
+        <li>Air Pollution Score:
+          <% if (model.get("air_pollution_score_percentage") == 0) { %>N/A<% } else { %>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"aria-valuenow="<%= model.get("air_pollution_score") %>" aria-valuemin="<%= model.get("air_pollution_score_min") %>" aria-valuemax="<%= model.get("air_pollution_score_max") %>" style="width: <%= model.get("air_pollution_score_percentage") %>%">
+              <%= model.get("air_pollution_score") %>
+            </div>
+          </div>
+          <% } %>
+        </li>
+        <li>Greenhouse Gas Score:
+          <% if (model.get("greenhouse_gas_score_percentage") == 0) { %>N/A<% } else { %>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"aria-valuenow="<%= model.get("greenhouse_gas_score") %>" aria-valuemin="<%= model.get("greenhouse_gas_score_min") %>" aria-valuemax="<%= model.get("greenhouse_gas_score_max") %>" style="width: <%= model.get("greenhouse_gas_score_percentage") %>%">
+              <%= model.get("greenhouse_gas_score") %>
+            </div>
+          </div>
+          <% } %>
+        </li>
+        <li>City MPG:
+          <% if (model.get("city_mpg_percentage") == 0) { %>N/A<% } else { %>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"aria-valuenow="<%= model.get("city_mpg") %>" aria-valuemin="<%= model.get("city_mpg_min") %>" aria-valuemax="<%= model.get("city_mpg_max") %>" style="width: <%= model.get("city_mpg_percentage") %>%">
+              <%= model.get("city_mpg") %>
+            </div>
+          </div>
+          <% } %>
+        </li>
+        <li>Highway MPG:
+          <% if (model.get("hwy_mpg_percentage") == 0) { %>N/A<% } else { %>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"aria-valuenow="<%= model.get("hwy_mpg") %>" aria-valuemin="<%= model.get("hwy_mpg_min") %>" aria-valuemax="<%= model.get("hwy_mpg_max") %>" style="width: <%= model.get("hwy_mpg_percentage") %>%">
+              <%= model.get("hwy_mpg") %>
+            </div>
+          </div>
+          <% } %>
+        </li>
+        <li>Combined MPG:
+          <% if (model.get("combined_mpg_percentage") == 0) { %>N/A<% } else { %>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar"aria-valuenow="<%= model.get("combined_mpg") %>" aria-valuemin="<%= model.get("combined_mpg_min") %>" aria-valuemax="<%= model.get("combined_mpg_max") %>" style="width: <%= model.get("combined_mpg_percentage") %>%">
+              <%= model.get("combined_mpg") %>
+            </div>
+          </div>
+          <% } %>
+        </li>
       </ul>
     </div>
     <% } else { %>

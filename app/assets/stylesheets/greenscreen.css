@@ -5,3 +5,8 @@ div.vehicle-makes .panel .panel-body ul.vehicle-make-list li {
 li.emphasis {
   font-weight: bold;
 }
+
+ul.vehicle-summary, ul.vehicle-model {
+  list-style: none;
+  padding-left: 0;
+}

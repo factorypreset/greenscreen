@@ -13,7 +13,13 @@ define(function(require, exports, module) {
     },
 
     initialize: function() {
+      this.listenTo(this.model, "sync", this.updateContent);
       this.listenTo(this.model, "change", this.render);
+    },
+
+    updateContent: function() {
+      this.model.set(this.model.defaults);
+      this.model.calculateProgress();
     }
   });
 
