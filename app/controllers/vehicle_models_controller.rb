@@ -22,7 +22,7 @@ class VehicleModelsController < ApplicationController
   private
 
   def vehicle_params
-    params.permit(:year, :make, :vehicle_make_id)
+    params.permit(:year, :make, :vehicle_make_id, :format)
   end
 
   def find_vehicle_models
