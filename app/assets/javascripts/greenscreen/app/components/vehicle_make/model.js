@@ -10,7 +10,7 @@ define(function(require, exports, module) {
     },
 
     url: function() {
-      return app.api + "vehicle-models/" + this.id + ".json";
+      return app.api + "vehicle-makes/" + this.id + ".json";
     },
 
     select: function() {
