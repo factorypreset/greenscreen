@@ -29,15 +29,6 @@ define(function(require, exports, module) {
       this.listenTo(this.collection, "reset sync request", this.render);
     },
 
-    events: {
-      "submit form": "updateYear"
-    },
-
-    updateYear: function(ev) {
-      app.router.go("vehicle-model", this.$(".year").val());
-
-      return false;
-    }
   });
 
   module.exports = Layout;
