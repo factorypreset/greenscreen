@@ -32,7 +32,6 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 group :development do
-  gem 'debugger'
   gem 'colorize'
 end
 

@@ -43,13 +43,6 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     colorize (0.7.1)
-    columnize (0.3.6)
-    debugger (1.6.6)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.2)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.2)
     erubis (2.7.0)
     execjs (2.0.2)
     factory_girl (4.4.0)
@@ -138,7 +131,6 @@ DEPENDENCIES
   capybara
   coffee-rails
   colorize
-  debugger
   factory_girl_rails
   flexmock
   jquery-rails

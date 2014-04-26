@@ -1,5 +1,4 @@
 require 'import_helpers'
-require 'debugger'
 require 'colorize'
 require 'net/http'
 
