@@ -128,13 +128,13 @@ module.exports = function(grunt) {
         singleRun: true,
         captureTimeout: 7000,
         autoWatch: true,
-        logLevel: "ERROR",
+        logLevel: "ERROR", // or LOG_DEBUG
 
         reporters: ["dots", "coverage"],
         browsers: ["PhantomJS"],
 
         // Change this to the framework you want to use.
-        frameworks: ["mocha"],
+        frameworks: ["jasmine"],
 
         plugins: [
           "karma-jasmine",
@@ -155,8 +155,9 @@ module.exports = function(grunt) {
 
         files: [
           // You can optionally remove this or swap out for a different expect.
-          "vendor/bower/chai/chai.js",
+          //"vendor/bower/chai/chai.js",
           "vendor/bower/requirejs/require.js",
+          "config.js",
           "test/runner.js",
 
           { pattern: "app/**/*.*", included: false },

@@ -9,7 +9,7 @@ define(function(require, exports, module) {
     tagName: "li",
 
     serialize: function() {
-      return { model: this.model };
+      return { make: this.model };
     },
 
     events: {

@@ -20,17 +20,18 @@ define(function(require, exports, module) {
       this.emphasize();
       var vehicleMakeId = this.model.get('vehicle_make_id');
       var nextUri = "vehicle-makes/" + vehicleMakeId + "/vehicle-models/" + this.model.id;
-      app.router.navigate(nextUri, {trigger: true});
+      this.router.navigate(nextUri, {trigger: true});
     },
 
     initialize: function() {
+      this.router = app.router;
       if (this.model.selected) {
         this.emphasize();
       }
       this.listenTo(this.model, "change", this.render);
     },
 
-     emphasize: function() {
+    emphasize: function() {
       $(this.el.parentNode).children(".emphasis").removeClass("emphasis");
       this.$el.addClass("emphasis");
     }

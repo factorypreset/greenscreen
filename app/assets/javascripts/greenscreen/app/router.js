@@ -12,15 +12,18 @@ define(function(require, exports, module) {
   var VehicleModel = require("components/vehicle_model/index");
 
   // Defining the application router.
-  module.exports = Backbone.Router.extend({
+  var Router = Backbone.Router.extend({
 
-    initialize: function() {
+    initialize: function(options) {
+      if (typeof(options) === "undefined") {
+        options = { renderLayout: true };
+      }
+
       this.vehicleMakes = new VehicleMake.Collection();
       this.vehicleMake = new VehicleMake.Model();
       this.vehicleModels = new VehicleModel.Collection();
       this.vehicleModel = new VehicleModel.Model();
 
-      // configure layout and views
       var Layout = Backbone.Layout.extend({
         el: "main",
         template: require("ldsh!./templates/main"),
@@ -31,30 +34,31 @@ define(function(require, exports, module) {
         }
       });
 
-      // render page
-      new Layout().render();
+      // render this if required
+      if (options.renderLayout) {
+        new Layout().render();
+      }
 
     },
-
 
     routes: {
-      "": "index",
-      "vehicle-makes": "vehicleMakeList",
-      "vehicle-makes/:vehicleMakeId": "vehicleMake",
-      "vehicle-makes/:vehicleMakeId/vehicle-models": "vehicleModelList",
-      "vehicle-makes/:vehicleMakeId/vehicle-models/:vehicleModelId": "vehicleModel"
+      "": "indexRoute",
+      "vehicle-makes": "vehicleMakeListRoute",
+      "vehicle-makes/:vehicleMakeId": "vehicleMakeRoute",
+      "vehicle-makes/:vehicleMakeId/vehicle-models": "vehicleModelListRoute",
+      "vehicle-makes/:vehicleMakeId/vehicle-models/:vehicleModelId": "vehicleModelRoute"
     },
 
-    index: function() {
+    indexRoute: function() {
       this.vehicleMakes.fetch();
       this.reset();
     },
 
-    vehicleMakeList: function() {
+    vehicleMakeListRoute: function() {
       this.vehicleMakes.fetch();
     },
 
-    vehicleMake: function(vehicleMakeId) {
+    vehicleMakeRoute: function(vehicleMakeId) {
       // fetch all vehicle makes if not already loaded
       if (this.vehicleMakes.length == 0) {
         this.vehicleMakes.fetch({
@@ -73,14 +77,14 @@ define(function(require, exports, module) {
       this.vehicleModel.clear();
     },
 
-    vehicleModelList: function(vehicleMakeId) {
+    vehicleModelListRoute: function(vehicleMakeId) {
       // get all the models for this make
       this.vehicleModels.vehicleMakeId = vehicleMakeId;
       this.vehicleModels.fetch();
       this.reset();
     },
 
-    vehicleModel: function(vehicleMakeId, vehicleModelId) {
+    vehicleModelRoute: function(vehicleMakeId, vehicleModelId) {
       // fetch all vehicle makes if not already loaded
       if (this.vehicleMakes.length == 0) {
         this.vehicleMakes.fetch({
@@ -124,5 +128,9 @@ define(function(require, exports, module) {
 
       app.active = false;
     }
+
   });
+
+  module.exports = Router;
+
 });
