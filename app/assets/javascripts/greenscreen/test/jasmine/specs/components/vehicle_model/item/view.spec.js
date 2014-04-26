@@ -10,10 +10,6 @@ define(function(require) {
       this.vehicleModel = new VehicleModel;
     });
 
-    afterEach(function() {
-      this.vehicleModel = undefined;
-    });
-
     it("does not emphasize the item by default", function() {
       this.layout = new ItemLayout( {
         model: this.vehicleModel
@@ -48,11 +44,6 @@ define(function(require) {
       this.layout.router = jasmine.createSpyObj(
         "router", ["navigate"]
       );
-    });
-
-    afterEach(function() {
-      this.vehicleModel = undefined;
-      this.layout = undefined;
     });
 
     it("is called when the current model when clicked", function() {

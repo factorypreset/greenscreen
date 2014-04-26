@@ -9,10 +9,6 @@ define(function(require) {
       this.make = new VehicleMake;
     });
 
-    afterEach(function() {
-      this.make = undefined;
-    });
-
     it("does not emphasize the item by default", function() {
       this.layout = new ItemLayout( {
         model: this.make

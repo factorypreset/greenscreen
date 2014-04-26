@@ -8,10 +8,6 @@ define(function(require) {
       this.vehicleModel = new VehicleModel;
     });
 
-    afterEach(function() {
-      this.VehicleModel = undefined;
-    });
-
     it("is unselected by default", function() {
       expect(this.vehicleModel.selected).toBeFalsy();
     });
