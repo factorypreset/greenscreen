@@ -76,6 +76,9 @@ TODO
 Some half-baked ideas for where this could go might include:
 
  * move js to its own repository
+ * handle year revisions for vehicle models
+ * handle different reporting jurisdictions (particularly CA vs Federal)
+ * handle different data sources
  * map fuel consumption
  * by vehicle style/type
  * experiments -- what influences decision to use low-emission vehicle?
