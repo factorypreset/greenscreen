@@ -43,7 +43,7 @@ define(function(require, exports, module) {
 
     routes: {
       "": "indexRoute",
-      "vehicle-makes": "vehicleMakeListRoute",
+      "vehicle-makes(/)": "vehicleMakeListRoute",
       "vehicle-makes/:vehicleMakeId": "vehicleMakeRoute",
       "vehicle-makes/:vehicleMakeId/vehicle-models": "vehicleModelListRoute",
       "vehicle-makes/:vehicleMakeId/vehicle-models/:vehicleModelId": "vehicleModelRoute"

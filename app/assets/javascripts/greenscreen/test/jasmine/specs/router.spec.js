@@ -42,6 +42,11 @@ define(function(require) {
       expect(this.router.vehicleMakeListRoute).toHaveBeenCalled();
     });
 
+    it("can resolve the vehicleMakeList when a slash is appended", function() {
+      this.router.navigate("vehicle-makes/", { trigger: true });
+      expect(this.router.vehicleMakeListRoute).toHaveBeenCalled();
+    });
+
     it("can resolve the vehicleMake route", function() {
       this.router.navigate("vehicle-makes/9999", { trigger: true });
       expect(this.router.vehicleMakeRoute).toHaveBeenCalledWith("9999", this.nullCallback);

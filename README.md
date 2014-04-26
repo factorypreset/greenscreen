@@ -21,6 +21,7 @@ Installation
 After cloning the repository you should:
 
     bundle install
+    bundle exec rake db:setup
 
 Download and import latest source data:
 
