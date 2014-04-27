@@ -12,4 +12,48 @@ describe VehicleMake do
     vehicle_make.must_respond_to :source
   end
 
+  describe "statistics" do
+
+    before :each do
+      vehicle_model1 = create :vehicle_model,
+                              model: "First Model",
+                              model_year: "2013",
+                              vehicle_make_id: vehicle_make.id,
+                              combined_mpg: 10
+
+      vehicle_model2 = create :vehicle_model,
+                              model: "Second Model",
+                              model_year: "2013",
+                              vehicle_make_id: vehicle_make.id,
+                              combined_mpg: 30
+
+      vehicle_model3 = create :vehicle_model,
+                              model: "Third Model",
+                              model_year: "2014",
+                              vehicle_make_id: vehicle_make.id,
+                              combined_mpg: 100
+
+      vehicle_model1.save!
+      vehicle_model2.save!
+      vehicle_model3.save!
+    end
+
+    it "can calculate average combined mpg for a single year" do
+      avg = vehicle_make.average_combined_mpg_for_year("2014")
+      avg.must_equal 100
+    end
+
+    it "can calculate average combined mpg for two vehicles in the same year" do
+      avg = vehicle_make.average_combined_mpg_for_year("2013")
+      avg.must_equal 20
+    end
+
+    it "can calculate average combined mpg across years" do
+      avg = vehicle_make.average_combined_mpg_by_year
+      avg[2013].to_i.must_equal 20
+      avg[2014].to_i.must_equal 100
+    end
+
+  end
+
 end

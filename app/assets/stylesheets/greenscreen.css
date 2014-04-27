@@ -1,3 +1,11 @@
+
+div.container {
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 0 5px;
+  background-color: #fbfbfb;
+}
+
 div.vehicle-makes .panel .panel-body ul.vehicle-make-list li {
   text-transform: lowercase;
 }

@@ -61,6 +61,10 @@ The app interacting with these feeds will be available at:
 Tests
 -----
 
+Set up the test database:
+
+    RAILS_ENV=test bundle exec rake db:setup
+
 Run all ruby tests:
 
     bundle exec rake test:all
