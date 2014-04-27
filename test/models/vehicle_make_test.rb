@@ -45,33 +45,33 @@ describe VehicleMake do
     end
 
     it "can calculate average combined mpg for a single year" do
-      avg = vehicle_make.average_combined_mpg_for_year("2014")
-      avg.must_equal 100
+      avg = vehicle_make.average_for_year(:combined_mpg, "2014")
+      avg.to_i.must_equal 100
     end
 
     it "can calculate average combined mpg for two vehicles in the same year" do
-      avg = vehicle_make.average_combined_mpg_for_year("2013")
-      avg.must_equal 20
+      avg = vehicle_make.average_for_year(:combined_mpg, "2013")
+      avg.to_i.must_equal 20
     end
 
     it "can calculate average combined mpg across years" do
-      avg = vehicle_make.average_combined_mpg_by_year
+      avg = vehicle_make.average_by_year(:combined_mpg)
       avg[2013].to_i.must_equal 20
       avg[2014].to_i.must_equal 100
     end
 
     it "can calculate average city mpg for a single year" do
-      avg = vehicle_make.average_city_mpg_for_year("2014")
-      avg.must_equal 80
+      avg = vehicle_make.average_for_year(:city_mpg, "2014")
+      avg.to_i.must_equal 80
     end
 
     it "can calculate average city mpg for two vehicles in the same year" do
-      avg = vehicle_make.average_city_mpg_for_year("2013")
-      avg.must_equal 14
+      avg = vehicle_make.average_for_year(:city_mpg, "2013")
+      avg.to_i.must_equal 14
     end
 
     it "can calculate average city mpg across years" do
-      avg = vehicle_make.average_city_mpg_by_year
+      avg = vehicle_make.average_by_year(:city_mpg)
       avg[2013].to_i.must_equal 14
       avg[2014].to_i.must_equal 80
     end
