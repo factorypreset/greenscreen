@@ -75,6 +75,24 @@ describe VehicleMake do
       avg[2013].to_i.must_equal 14
       avg[2014].to_i.must_equal 80
     end
+
+    it "can aggregate statistics for a single year" do
+      avg = vehicle_make.averages_for_year(
+        [:city_mpg, :hwy_mpg, :combined_mpg],
+        "2014"
+      )
+      avg[:city_mpg].to_i.must_equal 80
+      avg[:combined_mpg].to_i.must_equal 100
+      avg[:hwy_mpg].to_i.must_equal 120
+    end
+
+    it "can aggregate statistics across years" do
+      avg = vehicle_make.averages_by_year([:city_mpg, :hwy_mpg, :combined_mpg])
+      avg[:city_mpg][2014].to_i.must_equal 80
+      avg[:city_mpg][2013].to_i.must_equal 14
+      avg[:combined_mpg][2014].to_i.must_equal 100
+      avg[:hwy_mpg][2014].to_i.must_equal 120
+    end;
   end
 
 end

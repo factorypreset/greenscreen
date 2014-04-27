@@ -8,4 +8,16 @@ class VehicleMake < ActiveRecord::Base
   def average_by_year(column)
     VehicleModel.where(:vehicle_make_id => id).group(:model_year).average(column)
   end
+
+  def averages_for_year(columns, year)
+    averages = {}
+    columns.each{ |column| averages[column] = average_for_year(column, year) }
+    averages
+  end
+
+  def averages_by_year(columns)
+    averages = {}
+    columns.each{ |column| averages[column] = average_by_year(column) }
+    averages
+  end
 end

@@ -23,7 +23,7 @@ class VehicleMakesController < ApplicationController
   # GET /vehicle_makes/:id/statistics
   def statistics
     @vehicle_make = VehicleMake.find(params[:id])
-    @vehicle_statistics = @vehicle_make.average_by_year(:combined_mpg)
+    @vehicle_statistics = @vehicle_make.averages_by_year([:city_mpg, :hwy_mpg, :combined_mpg])
     respond_to do |format|
       format.json { render json: @vehicle_statistics }
       format.any

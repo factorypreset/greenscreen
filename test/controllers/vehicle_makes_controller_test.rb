@@ -50,7 +50,7 @@ describe VehicleMakesController do
       response.success?.must_equal true
 
       result = JSON.parse(response.body)
-      result['2013'].to_i.must_equal 40
+      result['combined_mpg']['2013'].to_i.must_equal 40
     end
   end
 end
