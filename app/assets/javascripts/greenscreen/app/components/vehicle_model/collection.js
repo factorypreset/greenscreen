@@ -2,7 +2,7 @@ define(function(require, exports, module) {
   "use strict";
 
   var app = require("app");
-  var VehicleModel = require("./model")
+  var VehicleModel = require("./model");
 
   var Collection = Backbone.Collection.extend({
 

@@ -130,7 +130,7 @@ module.exports = function(grunt) {
         autoWatch: true,
         logLevel: "ERROR", // or LOG_DEBUG
 
-        reporters: ["dots", "coverage"],
+        reporters: ["growler", "dots", "coverage"],
         browsers: ["PhantomJS"],
 
         // Change this to the framework you want to use.
@@ -138,8 +138,8 @@ module.exports = function(grunt) {
 
         plugins: [
           "karma-jasmine",
-          "karma-mocha",
-          "karma-qunit",
+          //"karma-mocha",
+          //"karma-qunit",
           "karma-phantomjs-launcher",
           "karma-coverage"
         ],
@@ -166,7 +166,8 @@ module.exports = function(grunt) {
             pattern: "test/<%= karma.options.frameworks[0] %>/**/*.spec.js",
             included: false
           },
-          { pattern: "vendor/**/*.js", included: false }
+          { pattern: "vendor/**/*.js", included: false },
+          { pattern: "app/**/*.*.js~", included: false, watched: false, served: false }
         ]
       },
 

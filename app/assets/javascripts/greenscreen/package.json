@@ -1,5 +1,5 @@
 {
-  "name": "backbone-boilerplate",
+  "name": "greenscreen",
   "version": "1.0.0",
 
   "devDependencies": {
@@ -17,7 +17,9 @@
     "karma-mocha": "~0.1.0",
     "karma-qunit": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
-    "karma-coverage": "~0.1.0"
+    "karma-coverage": "~0.1.0",
+    "karma-growler-reporter": "~0.0.1",
+    "growl": "~1.7.0"
   },
 
   "peerDependencies": {

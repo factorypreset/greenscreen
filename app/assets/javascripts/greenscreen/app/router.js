@@ -60,7 +60,7 @@ define(function(require, exports, module) {
 
     vehicleMakeRoute: function(vehicleMakeId) {
       // fetch all vehicle makes if not already loaded
-      if (this.vehicleMakes.length == 0) {
+      if (this.vehicleMakes.length === 0) {
         this.vehicleMakes.fetch({
           success: function(results) {
             var selectedItem = results.get(vehicleMakeId);
@@ -86,7 +86,7 @@ define(function(require, exports, module) {
 
     vehicleModelRoute: function(vehicleMakeId, vehicleModelId) {
       // fetch all vehicle makes if not already loaded
-      if (this.vehicleMakes.length == 0) {
+      if (this.vehicleMakes.length === 0) {
         this.vehicleMakes.fetch({
           success: function(results) {
             var selectedItem = results.get(vehicleMakeId);
@@ -97,7 +97,7 @@ define(function(require, exports, module) {
 
       // fetch all vehicle models for the given make
       // (if not already loaded)
-      if (this.vehicleModels.length == 0) {
+      if (this.vehicleModels.length === 0) {
         this.vehicleModels.vehicleMakeId = vehicleMakeId;
         this.vehicleModels.fetch({
           success: function(results) {

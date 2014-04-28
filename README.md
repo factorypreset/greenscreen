@@ -78,6 +78,11 @@ Run all js tests:
     cd app/assets/javascripts/greenscreen/
     grunt karma:run
 
+Run jshint:
+
+    cd app/assets/javascripts/greenscreen/
+    grunt jshint
+
 TODO
 ----
 
