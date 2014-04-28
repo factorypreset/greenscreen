@@ -33,6 +33,7 @@ gem 'jquery-rails'
 
 group :development do
   gem 'colorize'
+  gem 'guard-minitest'
 end
 
 group :development, :test do
