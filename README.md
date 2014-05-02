@@ -32,9 +32,9 @@ Download and import latest source data:
 
 Update and build front-end components:
 
-    cd vendor/assets/javascripts/greenscreen/
+    cd app/assets/javascripts/greenscreen/
     sudo npm install -g grunt-cli bower
-    sudo npm install
+    npm install
     bower cache clean && bower install
     grunt
 
