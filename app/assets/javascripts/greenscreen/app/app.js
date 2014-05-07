@@ -14,8 +14,7 @@ define(function(require, exports, module) {
   app.root = "/";
 
   // API address
-  // FIXME: remove localhost
-  app.api = "http://localhost:3000/";
+  app.api = "/";
 
   // patch Collection to indicate when request is in progress
   _.extend(Backbone.Collection.prototype, {
