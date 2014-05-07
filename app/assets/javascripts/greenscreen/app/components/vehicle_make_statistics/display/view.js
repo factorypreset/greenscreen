@@ -5,6 +5,10 @@ define(function(require, exports, module) {
   var plot = require("jquery.flot");
 
   var Layout = Backbone.Layout.extend({
+
+    minimum: 10,
+    maximum: 20,
+
     template: require("ldsh!./template"),
 
     tagName: "div",
@@ -14,62 +18,128 @@ define(function(require, exports, module) {
     },
 
     minMpg: function(field) {
-     var min = _.min(this.model.get(field));
-     return (min - (min * 0.1));
+      var min = _.min(this.model.get(field));
+      return min * 0.9;
     },
 
     maxMpg: function(field) {
       var max = _.max(this.model.get(field));
-      return (max + (max * 0.1));
+      return max * 1.1;
     },
 
-    graph: function(fields) {
+    setMinMpg: function(field) {
+      var fieldMin = this.minMpg(field);
+      if (fieldMin < this.minimum) {
+        this.minimum = fieldMin;
+      }
+    },
+
+    setMaxMpg: function(field) {
+      var fieldMax = this.maxMpg(field);
+      if (fieldMax > this.maximum) {
+        this.maximum = fieldMax;
+      }
+    },
+
+    plotOptions: function() {
+      var options = {
+        series: {
+          lines: { show: true },
+          points: { show: false },
+          shadowSize: 2
+        },
+        grid: {
+          hoverable: true,
+          clickable: true,
+          autoHighlight: true
+        },
+        yaxis: { min: this.minimum, max: this.maximum },
+        xaxis: { tickDecimals: 0 },
+        legend: { position: "se" }
+      };
+      return options;
+    },
+
+    extractDataFromField: function(field) {
+      var fieldData = _.map(this.model.get(field), function(val, yr) {
+        if (val > 0) {
+          // only include years with non-zero data
+          return [yr, val];
+        }
+      });
+      return fieldData;
+    },
+
+    extractDataFromFields: function(fields) {
       var data = [],
           fieldData = [],
-          that = this,
-          minimum = 10,
-          maximum = 20;
-
+          that = this;
       _.each(fields, function(field) {
-        var fieldMin = that.minMpg(field);
-        var fieldMax = that.maxMpg(field);
-        if (fieldMin < minimum) {
-          minimum = fieldMin;
-        }
-        if (fieldMax > maximum) {
-          maximum = fieldMax;
-        }
-
-        fieldData = _.map(that.model.get(field), function(val, yr) {
-          if (val > 0) {
-            return [yr, val];
-          }
-        });
+        that.setMinMpg(field);
+        that.setMaxMpg(field);
+        fieldData = that.extractDataFromField(field);
 
         data.push( {
           data: fieldData,
           label: field
         } );
-
       });
 
-      //data = [ data ];
+      return data;
+    },
 
-      var options = {
-        series: {
-          lines: { show: true },
-          points: { show: false },
-          shadowSize: 5
-        },
-        yaxis: { min: minimum, max: maximum },
-        xaxis: { tickDecimals: 0 },
-        legend: { position: "se", margin: "20px" }
-      };
-      plot(this.$("#stats-placeholder"), data, options);
+    toolTipHtml: function(item, label) {
+
+      // TODO: do this in a template
+      var html = '<div class="plot-tip">';
+      html += '<div>';
+
+      if (label) {
+        html += '<span class="plot-tip-label">' + label + ':</span>';
+      }
+
+      html += '<span class="item">' + Number((item).toFixed(2)) + '</span>';
+      html += '</div>';
+      html += '</div>';
+
+      return html;
+    },
+
+    displayToolTip: function(item) {
+      var tip, val, label;
+
+      this.clearToolTips();
+
+      if (item) {
+        val = item.series.data[item.dataIndex][1];
+        label = item.series.label;
+        tip = $(this.toolTipHtml(val, label));
+        this.$("#stats-placeholder").append(tip);
+
+        tip.offset({
+          left: item.pageX - 55,
+          top: item.pageY - tip.outerHeight() - 15
+        });
+      }
+    },
+
+    clearToolTips: function() {
+      this.$("#stats-placeholder .plot-tip").remove();
+    },
+
+    graph: function(fields) {
+      var data = this.extractDataFromFields(fields),
+          options = this.plotOptions(),
+          p = plot(this.$("#stats-placeholder"), data, options),
+          that = this;
+
+      // listen for events on the plot points
+      this.$("#stats-placeholder").on("plothover", function(event, pos, item) {
+        that.displayToolTip(item);
+      });
     },
 
     initialize: function() {
-      // this.listenTo(this.model, "change", this.render);
       var view = this;
       this.listenTo(this.model, "change", function(e) {
         view.render();

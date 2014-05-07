@@ -11,16 +11,18 @@ define(function(require, exports, module) {
     },
 
     parse: function(response, xhr) {
+      var yr;
+
       // convert mpg values into floats
-      for (var yr in response.city_mpg) {
+      for (yr in response.city_mpg) {
         response.city_mpg[yr] = parseFloat(response.city_mpg[yr]);
       }
 
-      for (var yr in response.hwy_mpg) {
+      for (yr in response.hwy_mpg) {
         response.hwy_mpg[yr] = parseFloat(response.hwy_mpg[yr]);
       }
 
-      for (var yr in response.combined_mpg) {
+      for (yr in response.combined_mpg) {
         response.combined_mpg[yr] = parseFloat(response.combined_mpg[yr]);
       }
 
