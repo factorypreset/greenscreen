@@ -7,7 +7,8 @@ define(function(require, exports, module) {
     Views: {
       Item: require("./item/view"),
       List: require("./list/view"),
-      Display: require("./display/view")
+      Display: require("./display/view"),
+      Sliders: require("./sliders/view")
     }
   };
 });

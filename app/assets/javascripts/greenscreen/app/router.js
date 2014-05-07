@@ -9,6 +9,7 @@ define(function(require, exports, module) {
 
   // Greenscreen components
   var VehicleMake = require("components/vehicle_make/index");
+  var VehicleMakeStatistics = require("components/vehicle_make_statistics/index");
   var VehicleModel = require("components/vehicle_model/index");
 
   // Defining the application router.
@@ -21,6 +22,7 @@ define(function(require, exports, module) {
 
       this.vehicleMakes = new VehicleMake.Collection();
       this.vehicleMake = new VehicleMake.Model();
+      this.vehicleMakeStatistics = new VehicleMakeStatistics.Model();
       this.vehicleModels = new VehicleModel.Collection();
       this.vehicleModel = new VehicleModel.Model();
 
@@ -30,7 +32,8 @@ define(function(require, exports, module) {
         views: {
           ".vehicle-makes": new VehicleMake.Views.List({ collection: this.vehicleMakes }),
           ".vehicle-models": new VehicleModel.Views.List({ collection: this.vehicleModels }),
-          ".vehicle-model": new VehicleModel.Views.Display({ model: this.vehicleModel})
+          ".vehicle-model": new VehicleModel.Views.Display({ model: this.vehicleModel}),
+          ".vehicle-make-statistics": new VehicleMakeStatistics.Views.Display({ model: this.vehicleMakeStatistics })
         }
       });
 
@@ -68,6 +71,10 @@ define(function(require, exports, module) {
           }
         });
       }
+
+      // fetch statistics for this make
+      this.vehicleMakeStatistics.vehicleMakeId = vehicleMakeId;
+      this.vehicleMakeStatistics.fetch();
 
       // get all vehicle models for this make
       this.vehicleModels.vehicleMakeId = vehicleMakeId;

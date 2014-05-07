@@ -9,6 +9,13 @@ require.config({
     "backbone": "../vendor/bower/backbone/backbone",
     "ldsh": "../vendor/bower/lodash-template-loader/loader",
     "lodash": "../vendor/bower/lodash/dist/lodash",
-    "layoutmanager": "../vendor/bower/layoutmanager/backbone.layoutmanager"
+    "layoutmanager": "../vendor/bower/layoutmanager/backbone.layoutmanager",
+    "jquery.flot": "../vendor/bower/flot/jquery.flot"
+  },
+  shim: {
+    "jquery.flot": {
+      deps: ["jquery"],
+      exports: "$.plot"
+    }
   }
 });
