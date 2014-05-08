@@ -41,23 +41,20 @@ define(function(require, exports, module) {
       }
     },
 
-    plotOptions: function() {
-      var options = {
-        series: {
-          lines: { show: true },
-          points: { show: false },
-          shadowSize: 2
-        },
-        grid: {
-          hoverable: true,
-          clickable: true,
-          autoHighlight: true
-        },
-        yaxis: { min: this.minimum, max: this.maximum },
-        xaxis: { tickDecimals: 0 },
-        legend: { position: "se" }
-      };
-      return options;
+    plotOptions: {
+      series: {
+        lines: { show: true },
+        points: { show: false },
+        shadowSize: 2
+      },
+      grid: {
+        hoverable: true,
+        clickable: true,
+        autoHighlight: true
+      },
+      yaxis: { min: this.minimum, max: this.maximum },
+      xaxis: { tickDecimals: 0 },
+      legend: { position: "se" }
     },
 
     extractDataFromField: function(field) {
@@ -89,20 +86,11 @@ define(function(require, exports, module) {
     },
 
     toolTipHtml: function(item, label) {
-
-      // TODO: do this in a template
-      var html = '<div class="plot-tip">';
-      html += '<div>';
-
-      if (label) {
-        html += '<span class="plot-tip-label">' + label + ':</span>';
-      }
-
-      html += '<span class="item">' + Number((item).toFixed(2)) + '</span>';
-      html += '</div>';
-      html += '</div>';
-
-      return html;
+      var toolTipTemplate = require("ldsh!./tooltip");
+      return toolTipTemplate({
+        item: Number((item).toFixed(2)),
+        label: label
+      });
     },
 
     displayToolTip: function(item) {
@@ -127,9 +115,9 @@ define(function(require, exports, module) {
       this.$("#stats-placeholder .plot-tip").remove();
     },
 
-    graph: function(fields) {
+    drawPlot: function(fields) {
       var data = this.extractDataFromFields(fields),
-          options = this.plotOptions(),
+          options = this.plotOptions,
           p = plot(this.$("#stats-placeholder"), data, options),
           that = this;
 
@@ -143,7 +131,7 @@ define(function(require, exports, module) {
       var view = this;
       this.listenTo(this.model, "change", function(e) {
         view.render();
-        view.graph( ["city_mpg", "hwy_mpg", "combined_mpg"] );
+        view.drawPlot( ["city_mpg", "hwy_mpg", "combined_mpg"] );
       });
     }
 
