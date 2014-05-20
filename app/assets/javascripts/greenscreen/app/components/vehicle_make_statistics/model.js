@@ -6,7 +6,13 @@ define(function(require, exports, module) {
   var Model = Backbone.Model.extend({
 
     url: function() {
-      var uri = app.api + "vehicle-makes/" + this.vehicleMakeId + "/statistics.json";
+      var uri = app.api + "vehicle-makes/";
+      if (_.isUndefined(this.vehicleMakeId)) {
+        uri += "statistics.json";
+      } else {
+        uri += this.vehicleMakeId + "/statistics.json";
+      }
+
       return uri;
     },
 

@@ -20,4 +20,14 @@ class VehicleMake < ActiveRecord::Base
     columns.each{ |column| averages[column] = average_by_year(column) }
     averages
   end
+
+  def self.average_by_year(column)
+    VehicleModel.group(:model_year).average(column)
+  end
+
+  def self.averages_by_year(columns)
+    averages = {}
+    columns.each{ |column| averages[column] = average_by_year(column) }
+    averages
+  end
 end

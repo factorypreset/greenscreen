@@ -69,4 +69,48 @@ describe VehicleMakesController do
       @result['combined_mpg']['2013'].to_i.must_equal 40
     end
   end
+
+  describe :index_statistics do
+
+    before :each do
+      @make1 = create :vehicle_make, make: "TOYOTA"
+      @make2 = create :vehicle_make, make: "HONDA"
+      @model1 = create :vehicle_model,
+                      model: "Prius",
+                      model_year: "2013",
+                      city_mpg: 30,
+                      hwy_mpg: 50,
+                      combined_mpg: 40,
+                      air_pollution_score: 6,
+                      greenhouse_gas_score: 7,
+                      vehicle_make_id: @make1.id
+
+      @model2 = create :vehicle_model,
+                      model: "Fit",
+                      model_year: "2013",
+                      city_mpg: 40,
+                      hwy_mpg: 60,
+                      combined_mpg: 50,
+                      air_pollution_score: 6,
+                      greenhouse_gas_score: 7,
+                      vehicle_make_id: @make2.id
+
+      get :index_statistics, format: 'json'
+      response.success?.must_equal true
+      @result = JSON.parse(response.body)
+    end
+
+    it "returns a full set of statistics for a given vehicle make" do
+      @result.has_key?('city_mpg').must_equal true
+      @result.has_key?('hwy_mpg').must_equal true
+      @result.has_key?('combined_mpg').must_equal true
+      @result.has_key?('air_pollution_score').must_equal true
+      @result.has_key?('greenhouse_gas_score').must_equal true
+    end
+
+    it "can get correct average value for one field" do
+      @result['combined_mpg']['2013'].to_i.must_equal 45
+    end
+
+  end
 end

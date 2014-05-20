@@ -92,7 +92,44 @@ describe VehicleMake do
       avg[:city_mpg][2013].to_i.must_equal 14
       avg[:combined_mpg][2014].to_i.must_equal 100
       avg[:hwy_mpg][2014].to_i.must_equal 120
-    end;
+    end
+  end
+
+  describe "statistics for all vehicle makes" do
+
+    let(:vehicle_make2) {
+      create :vehicle_make,
+             make: "A Second Manufacturer"
+    }
+
+    before :each do
+      vehicle_model1 = create :vehicle_model,
+                              model: "First Model",
+                              model_year: "2013",
+                              vehicle_make_id: vehicle_make.id,
+                              combined_mpg: 10,
+                              city_mpg: 8,
+                              hwy_mpg: 12
+
+      vehicle_model2 = create :vehicle_model,
+                              model: "Second Model",
+                              model_year: "2013",
+                              vehicle_make_id: vehicle_make2.id,
+                              combined_mpg: 30,
+                              city_mpg: 20,
+                              hwy_mpg: 40
+
+      vehicle_model1.save!
+      vehicle_model2.save!
+    end
+
+    it "can aggregate statistics for all makes" do
+      avg = VehicleMake.averages_by_year([:city_mpg, :hwy_mpg, :combined_mpg])
+      avg[:city_mpg][2013].to_i.must_equal 14
+      avg[:combined_mpg][2013].to_i.must_equal 20
+      avg[:hwy_mpg][2013].to_i.must_equal 26
+    end
+
   end
 
 end

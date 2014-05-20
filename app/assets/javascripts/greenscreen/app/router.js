@@ -54,11 +54,13 @@ define(function(require, exports, module) {
 
     indexRoute: function() {
       this.vehicleMakes.fetch();
+      this.vehicleMakeStatistics.fetch();
       this.reset();
     },
 
     vehicleMakeListRoute: function() {
       this.vehicleMakes.fetch();
+      this.vehicleMakeStatistics.fetch();
     },
 
     vehicleMakeRoute: function(vehicleMakeId) {
