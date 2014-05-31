@@ -18,6 +18,8 @@ namespace :epa do
 
   namespace :vehicles do
 
+    DATA_PATH = "http://www.fueleconomy.gov/feg/EPAGreenGuide/txt"
+
     IMPORT_FILES = {
       2000 => "all_alpha_00.txt",
       2001 => "all_alpha_01.txt",
@@ -39,14 +41,13 @@ namespace :epa do
     task :download_all => :environment do
       app_path = Rake.application.original_dir
       save_path = "#{app_path}/data/epa/greenvehicles"
-      (0..14).each do |i|
-        yr = "%02d" % i
-        filename = "all_alpha_#{yr}.txt"
-        uri = URI("http://www.fueleconomy.gov/feg/EPAGreenGuide/txt/#{filename}")
+      IMPORT_FILES.each do |year, file|
+        uri = URI("#{DATA_PATH}/#{file}")
         content = Net::HTTP.get(uri)
-        f = File.new("#{save_path}/#{filename}", "w")
+        f = File.new("#{save_path}/#{file}", "w")
         f.write(content)
         f.close
+        puts I18n.t("epa.vehicles.downloaded_file", filename: file).blue
       end
       puts I18n.t("epa.vehicles.download_complete").green
     end

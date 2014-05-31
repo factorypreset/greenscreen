@@ -5,6 +5,7 @@ en:
     delete_completed: All EPA data deleted.
     vehicles:
       import_complete: EPA Green Vehicles import complete.
+      downloaded_file: Downloaded file %{filename}
       download_complete: EPA Green Vehicles download complete.
       data_deleted: EPA Green Vehicles data deleted.
       importing_makes: Starting import for vehicle makes...
